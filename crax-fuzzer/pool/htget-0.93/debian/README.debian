@@ -1,0 +1,9 @@
+htget for Debian
+----------------------
+
+Some reported problems with segfaults on certain URL's.  Please email me if 
+you experience this problem.
+
+New main loop, thanks go to Mike Simons [msimons@fsimons01.erols.com]
+
+Troy Hanson <troy@debian.org>, Thu, 24 Jun 1999 21:06:52 -0500 

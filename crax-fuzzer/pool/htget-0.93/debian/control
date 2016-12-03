@@ -1,0 +1,14 @@
+Source: htget
+Section: www 
+Priority: optional
+Maintainer: Troy Hanson <troy@debian.org>
+Standards-Version: 2.4.1
+
+Package: htget
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: a file grabber that will get files from HTTP servers 
+ HTGET is a file grabber that will get files from HTTP servers. 
+ The aim behind this program is to create a downloader that you can leave
+ running in the background - one that's totally reliable and can cope with
+ just about any problem, and won't stop downloading unless it's forced to.

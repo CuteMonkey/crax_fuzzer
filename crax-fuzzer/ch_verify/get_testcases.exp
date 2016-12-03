@@ -1,0 +1,17 @@
+#!/usr/bin/expect
+#Achieve the TestCases from host via scp (or other security based connection
+# method).
+
+set timeout 40
+
+set host_ip ""
+set host_user ""
+set user_pass ""
+
+set testcase_dir "SCraxF/s2e_out/s2e-last"
+set verify_dir "/home/chengte/ch_verify"
+
+spawn scp -p $host_user@$host_ip:$testcase_dir/TestCase_1.bin $verify_dir/TestCases
+expect "password:" { send "$user_pass\n" }
+
+interact

@@ -1,0 +1,113 @@
+HTGET version 0.93 (C) J Whitham 1998
+partly based on snarf (C) 1995-1997 Zachary Beane
+Send bug reports/helpful comments to: jwhitham@globalnet.co.uk
+
+
+Please read INSTALL to set htget up. See this file and the 
+man page if you have difficulties.
+
+
+HTGET now has a website at
+http://www.users.globalnet.co.uk/~jwhitham/htget/
+
+Please check the site if you have a problem with this program. It may be
+that others have had the same problem, and I have posted a new version.
+
+
+
+Contents:
+	Description
+	Disclaimer
+	Usage
+	To Do
+	Credits
+
+
+Description
+-----------
+
+HTGET is a file grabber that will get files from HTTP servers. 
+The aim behind this program is to create a downloader that you can leave
+running in the background - one that's totally reliable and can cope with
+just about any problem, and won't stop downloading unless it's forced to.
+
+htget is not a finished program, so while much of the above is true, it's
+not quite as reliable as it should be.
+
+Currently it compiles on Linux. It may need substantial modification to
+work on other platforms. I have got it to compile on Linux 2.0.30
+and onwards, using gcc and libc5.
+
+The networking code is based on a program called snarf, 
+by Zachary Beane (xach@mint.net), available from sunsite.unc.edu. See
+Credits for more details.
+
+
+
+Disclaimer
+----------
+
+This software is distributed under the GNU Public License: see the file
+LICENSE included with the program for details. Essentially it means
+that this software is totally free, but has no warranty of any kind.
+In other words, even if it formats your hard disk or brings the Internet
+to a halt, it's your fault for using it.
+
+By using this program you agree to the terms of it's LICENSE, and understand
+that you are responsible for anything you use it for, and anything it does.
+
+
+Usage
+-----
+
+Please see the man page for details.
+
+
+To Do
+-----
+
+Make more reliable
+Add FTP downloads?
+Add a nice GUI, maybe for KDE...
+
+Much better handling of errors is needed. At the moment, when htget
+hits an error 403 (Forbidden) it carries on (with Redial) until it
+gets it. Which will probably be never. Also, handling of TCP errors
+is really bad...
+
+The program can't handle HTTP proxies as yet, either. It probably
+never will, because my ISP doesn't have one. If you require a proxy
+feature, please feel free to implement one! It should hopefully be
+quite easy to do that.
+
+
+Credits
+-------
+
+The networking part is heavily based on Zachary Beane's code, used in
+snarf.. His code didn't support many of the features I've added, and I
+have changed it all so much that this is effectively a completely new
+program.
+
+snarf is (C) 1995-1997 Zachary Beane
+
+The original credits list for snarf included:
+     o Greg Lewis for helping me find out what flags I
+       needed to add to newer SunOSs to get this program to compile.
+     o Ganesh (ganesh@cse.iitb.ernet.in) for providing me with a very nice
+       snarf-specific ftp interface
+     o Sean Connor for helping me patch a few little buffer overruns and
+       other cosmetic things. He's incredibly nit-picky, but that's a good
+       thing :).
+     o The Debian people (doesn't that sound like a rock band) for including
+       snarf in Debian distributions, and making more people bother me with
+       bug reports (I love them)
+     o msw on GIMPnet IRC for doing some beta testing
+
+Thanks to Oliver Mang for pointing out two bugs in version 0.91.
+
+Many thanks to Mike Simons, who rewrote the main loop for 0.93, added some
+bugfixes and made quite a lot of optimisations, and to Troy, the debian
+package maintainer for htget. 
+
+

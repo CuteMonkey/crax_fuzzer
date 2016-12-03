@@ -1,0 +1,169 @@
+Creating plugin CorePlugin
+Creating plugin BaseInstructions
+Creating plugin HostFiles
+1 [State 0] Created initial state
+Initing initial device state.
+WARNING!!! All writes to disk will be lost after shutdown.
+9 [State 0] Inserting symbolic data at 0xbfa8cbd1 of size 0x8 with name 'crax'
+9 [State 0] Message from guest (0xb772d646): Testing malloc (size)
+9 [State 0] Testing whether data at 0xbfd28190 and size 4 is symbolic:  false
+9 [State 0] Message from guest (0xb772d646): Testing malloc (size)
+9 [State 0] Testing whether data at 0xbfd27fc4 and size 4 is symbolic:  false
+9 [State 0] Message from guest (0xb772d646): Testing malloc (size)
+9 [State 0] Testing whether data at 0xbfd27ec4 and size 4 is symbolic:  false
+9 [State 0] Message from guest (0xb772d646): Testing malloc (size)
+9 [State 0] Testing whether data at 0xbfd27f00 and size 4 is symbolic:  false
+9 [State 0] Message from guest (0xb772d646): Testing malloc (size)
+9 [State 0] Testing whether data at 0xbfd27eb4 and size 4 is symbolic:  false
+9 [State 0] Message from guest (0xb772d646): Testing malloc (size)
+9 [State 0] Testing whether data at 0xbfd27eb4 and size 4 is symbolic:  false
+9 [State 0] Message from guest (0xb772d646): Testing malloc (size)
+9 [State 0] Testing whether data at 0xbfd27eb4 and size 4 is symbolic:  false
+9 [State 0] Message from guest (0xb772d646): Testing malloc (size)
+9 [State 0] Testing whether data at 0xbfd27eb4 and size 4 is symbolic:  false
+9 [State 0] Message from guest (0xb772d646): Testing malloc (size)
+9 [State 0] Testing whether data at 0xbfd27eb4 and size 4 is symbolic:  false
+9 [State 0] Message from guest (0xb772d544): Testing snprintf (format)
+9 [State 0] Testing whether data at 0x8076cb2 and size 7 is symbolic:  false
+9 [State 0] Message from guest (0xb772d56d): Testing snprintf (\0)
+9 [State 0] Testing whether data at 0x8076cb9 and size 1 is symbolic:  false
+9 [State 0] Message from guest (0xb772d544): Testing snprintf (format)
+9 [State 0] Testing whether data at 0x8076cba and size 3 is symbolic:  false
+9 [State 0] Message from guest (0xb772d56d): Testing snprintf (\0)
+9 [State 0] Testing whether data at 0x8076cbd and size 1 is symbolic:  false
+9 [State 0] Message from guest (0xb772d518): Testing vsnprintf (format)
+9 [State 0] Testing whether data at 0x8076b0e and size 28 is symbolic:  false
+9 [State 0] Message from guest (0xb772d482): Testing syslog (format)
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x230 value=(Concat w64 (Read w8 0x3 v0_crax_0) (w56 0x22207974696c69))) expression (Concat w64 (Read w8 0x3 v0_crax_0) (w56 0x22207974696c69)) to value 0x4122207974696c69 (:0)
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x228 value=(Concat w64 (w8 0xbf)
+            (Concat w56 (w8 0x0)
+                        (Concat w48 (w8 0xa)
+                                    (Concat w40 (w8 0x22)
+                                                (ReadLSB w32 0x4 v0_crax_0)))))) expression (Concat w64 (w8 0xbf)
+            (Concat w56 (w8 0x0)
+                        (Concat w48 (w8 0xa)
+                                    (Concat w40 (w8 0x22)
+                                                (ReadLSB w32 0x4 v0_crax_0))))) to value 0xbf000a2241414141 (:0)
+9 [State 0] Testing whether data at 0xbfd28094 and size 34 is symbolic:  true
+9 [State 0] Message from guest (0xb772d646): Testing malloc (size)
+9 [State 0] Testing whether data at 0xbfd269d0 and size 4 is symbolic:  false
+9 [State 0] Message from guest (0xb772d646): Testing malloc (size)
+9 [State 0] Testing whether data at 0xbfd26894 and size 4 is symbolic:  false
+9 [State 0] Message from guest (0xb772d646): Testing malloc (size)
+9 [State 0] Testing whether data at 0xbfd26b74 and size 4 is symbolic:  false
+9 [State 0] Message from guest (0xb772d646): Testing malloc (size)
+9 [State 0] Testing whether data at 0xbfd26eac and size 4 is symbolic:  false
+9 [State 0] Message from guest (0x8927a50): ./tlib.so(syslog+0x36) [0xb772cd7d]
+9 [State 0] Message from guest (0x8927a74): ../socat-1.4/socat() [0x8065a04]
+9 [State 0] Message from guest (0x8927a95): ../socat-1.4/socat(msg+0x250) [0x8065992]
+9 [State 0] Message from guest (0x8927abf): ../socat-1.4/socat(diag_set+0x7e) [0x806556e]
+9 [State 0] Message from guest (0x8927aed): ../socat-1.4/socat(main+0x213) [0x80509e7]
+9 [State 0] Message from guest (0x8927b18): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75f2ca6]
+9 [State 0] Message from guest (0x8927b56): ../socat-1.4/socat() [0x8050741]
+SymbExpression syslog_format - 0x45
+SymbExpression syslog_format - Value: 0x45
+SymbExpression syslog_format - 0x20
+SymbExpression syslog_format - Value: 0x20
+SymbExpression syslog_format - 0x75
+SymbExpression syslog_format - Value: 0x75
+SymbExpression syslog_format - 0x6e
+SymbExpression syslog_format - Value: 0x6e
+SymbExpression syslog_format - 0x6b
+SymbExpression syslog_format - Value: 0x6b
+SymbExpression syslog_format - 0x6e
+SymbExpression syslog_format - Value: 0x6e
+SymbExpression syslog_format - 0x6f
+SymbExpression syslog_format - Value: 0x6f
+SymbExpression syslog_format - 0x77
+SymbExpression syslog_format - Value: 0x77
+SymbExpression syslog_format - 0x6e
+SymbExpression syslog_format - Value: 0x6e
+SymbExpression syslog_format - 0x20
+SymbExpression syslog_format - Value: 0x20
+SymbExpression syslog_format - 0x73
+SymbExpression syslog_format - Value: 0x73
+SymbExpression syslog_format - 0x79
+SymbExpression syslog_format - Value: 0x79
+SymbExpression syslog_format - 0x73
+SymbExpression syslog_format - Value: 0x73
+SymbExpression syslog_format - 0x6c
+SymbExpression syslog_format - Value: 0x6c
+SymbExpression syslog_format - 0x6f
+SymbExpression syslog_format - Value: 0x6f
+SymbExpression syslog_format - 0x67
+SymbExpression syslog_format - Value: 0x67
+SymbExpression syslog_format - 0x20
+SymbExpression syslog_format - Value: 0x20
+SymbExpression syslog_format - 0x66
+SymbExpression syslog_format - Value: 0x66
+SymbExpression syslog_format - 0x61
+SymbExpression syslog_format - Value: 0x61
+SymbExpression syslog_format - 0x63
+SymbExpression syslog_format - Value: 0x63
+SymbExpression syslog_format - 0x69
+SymbExpression syslog_format - Value: 0x69
+SymbExpression syslog_format - 0x6c
+SymbExpression syslog_format - Value: 0x6c
+SymbExpression syslog_format - 0x69
+SymbExpression syslog_format - Value: 0x69
+SymbExpression syslog_format - 0x74
+SymbExpression syslog_format - Value: 0x74
+SymbExpression syslog_format - 0x79
+SymbExpression syslog_format - Value: 0x79
+SymbExpression syslog_format - 0x20
+SymbExpression syslog_format - Value: 0x20
+SymbExpression syslog_format - 0x22
+SymbExpression syslog_format - Value: 0x22
+SymbExpression syslog_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x3 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression syslog_format - Value: 0x41
+SymbExpression syslog_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x4 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression syslog_format - Value: 0x41
+SymbExpression syslog_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x5 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression syslog_format - Value: 0x41
+SymbExpression syslog_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x6 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression syslog_format - Value: 0x41
+SymbExpression syslog_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x7 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression syslog_format - Value: 0x41
+SymbExpression syslog_format - 0x22
+SymbExpression syslog_format - Value: 0x22
+SymbExpression syslog_format - 0xa
+SymbExpression syslog_format - Value: 0xa
+9 [State 0] Message from guest (0xb772d646): Testing malloc (size)
+9 [State 0] Testing whether data at 0xbfd27f24 and size 4 is symbolic:  false
+9 [State 0] Message from guest (0xb772d61b): Testing realloc (size)
+9 [State 0] Testing whether data at 0xbfd27f10 and size 4 is symbolic:  false
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x230 value=(Concat w64 (Read w8 0x6 v0_crax_0)
+            (Concat w56 (Read w8 0x5 v0_crax_0)
+                        (Concat w48 (Read w8 0x4 v0_crax_0)
+                                    (Concat w40 (Read w8 0x3 v0_crax_0) (w32 0x22207974)))))) expression (Concat w64 (Read w8 0x6 v0_crax_0)
+            (Concat w56 (Read w8 0x5 v0_crax_0)
+                        (Concat w48 (Read w8 0x4 v0_crax_0)
+                                    (Concat w40 (Read w8 0x3 v0_crax_0) (w32 0x22207974))))) to value 0x4141414122207974 (:0)
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x228 value=(Concat w64 (w8 0x74)
+            (Concat w56 (w8 0x73)
+                        (Concat w48 (w8 0x65)
+                                    (Concat w40 (w8 0x75)
+                                                (Concat w32 (w8 0x67)
+                                                            (Concat w24 (w8 0x0)
+                                                                        (Concat w16 (w8 0x22) (Read w8 0x7 v0_crax_0))))))))) expression (Concat w64 (w8 0x74)
+            (Concat w56 (w8 0x73)
+                        (Concat w48 (w8 0x65)
+                                    (Concat w40 (w8 0x75)
+                                                (Concat w32 (w8 0x67)
+                                                            (Concat w24 (w8 0x0)
+                                                                        (Concat w16 (w8 0x22) (Read w8 0x7 v0_crax_0)))))))) to value 0x7473657567002241 (:0)
+9 [State 0] Killing state 0
+9 [State 0] State was terminated by opcode
+            message: "Program terminated"
+            status: 0x0
+All states were terminated

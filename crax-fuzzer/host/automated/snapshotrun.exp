@@ -1,0 +1,17 @@
+#!/usr/bin/expect
+
+# Load a snapshot in qemu mode
+
+if {$argc != 1} {
+    puts "Usage: ./snapshotrun.exp <loadvm Name> \r"
+    exit 1
+}
+
+set timeout 120
+set snapshotName [lindex $argv 0]
+
+spawn build/qemu-release/i386-softmmu/qemu-system-i386 image/s2e_disk.raw.s2e -net none -nographic -loadvm $snapshotName
+
+send "\n"
+
+interact

@@ -1,0 +1,51 @@
+#!/usr/bin/expect
+
+# Boot a image and savevm after login.
+
+if {$argc != 1} {
+    puts "Usage: ./snapshotinit.exp <savevm Name> \r"
+    exit 1
+}
+
+set timeout 120
+set snapshotName [lindex $argv 0]
+
+spawn build/qemu-release/i386-softmmu/qemu-system-i386 image/s2e_disk.raw.s2e -net none -nographic
+
+expect {
+    "login:" { send "root\n" }
+}
+
+expect {
+    "Password:" { send "1234\n" }
+}
+
+expect {
+    #timeout { puts stderr "Error_string: ':~$'"; exit 1 }
+    "@debian" {
+        send "cd /home/littlepunpun\n"
+    }
+}
+
+expect {
+    "@debian" {
+        send "\x01"
+        send "c"
+    }
+}
+
+expect {
+    "(qemu)" { send "savevm $snapshotName\n" }
+}
+
+expect {
+    "(qemu)" { send "info snapshots\n" }
+}
+
+expect {
+    "$snapshotName" {
+        send "\x01"
+        send "x"
+    }
+}
+

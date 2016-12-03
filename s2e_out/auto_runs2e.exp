@@ -1,0 +1,22 @@
+#!/usr/bin/expect
+#Boot snapshot in s2e mode for automatic fuzzing system.
+#Useage: ./auto_runs2e.exp <s2e-config-file> <snapshot-name> <script-name>
+
+set timeout 120
+
+if {$argc != 3} {
+    puts "Usage: ./auto_runs2e.exp <s2e-config-file> <snapshot-name> <script-name>\r";
+    exit 1
+}
+
+set s2e_config [lindex $argv 0]
+set snapshot_name [lindex $argv 1]
+set script_name [lindex $argv 2]
+
+spawn ../build/qemu-release/i386-s2e-softmmu/qemu-system-i386 /home/chengte/disk_images/s2e_guest.raw.s2e -s2e-config-file \
+$s2e_config -s2e-verbose -net none -nographic -loadvm $snapshot_name
+
+send "cd ch_guest\n"
+expect "ch_guest$" { send "./$script_name\n" }
+
+interact

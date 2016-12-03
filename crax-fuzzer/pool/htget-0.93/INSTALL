@@ -1,0 +1,28 @@
+To install htget:
+-----------------
+
+run "make" to compile the binary
+
+then run "make install" as root to install the man page and binary.
+
+Next, copy the htgetrc file to your home directory as .htgetrc to
+install htget's default configuration. Running "cp htgetrc ~/.htgetrc" 
+will do this in most shells including bash.
+
+
+Finally, test it out. You could try running htget as shown below:
+
+htget http://www.users.globalnet.co.uk/~jwhitham/htget/htget.lsm
+
+This should get a file, htget.lsm, which will be the LSM entry of
+the latest version of htget, direct from my website!
+(of course, my webserver isn't the most reliable..)
+
+
+htget should compile and run on any Linux system, but has only been
+tested with Linux 2.x.x. No libraries other than libc are required.
+
+The man page is installed in /usr/man/man1.
+The binary is installed in /usr/bin.
+
+

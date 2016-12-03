@@ -1,0 +1,229 @@
+Creating plugin CorePlugin
+Creating plugin BaseInstructions
+Creating plugin HostFiles
+0 [State 0] Created initial state
+Initing initial device state.
+WARNING!!! All writes to disk will be lost after shutdown.
+10 [State 0] Inserting symbolic data at 0xb7648000 of size 0x4766 with name 'crax'
+10 [State 0] Message from guest (0xb7791646): Testing malloc (size)
+10 [State 0] Testing whether data at 0xbfa441e0 and size 4 is symbolic:  false
+10 [State 0] Message from guest (0xb77914f2): Testing memset (n)
+10 [State 0] Testing whether data at 0xbfa441e8 and size 4 is symbolic:  false
+10 [State 0] Message from guest (0xb779158e): Testing strcpy (src)
+10 [State 0] Testing whether data at 0xbfa45b5d and size 32 is symbolic:  false
+10 [State 0] Message from guest (0xb77915ae): Testing strcpy (\0)
+10 [State 0] Testing whether data at 0xbfa45b7d and size 1 is symbolic:  false
+10 [State 0] Message from guest (0xb779161b): Testing realloc (size)
+10 [State 0] Testing whether data at 0xbfa440c4 and size 4 is symbolic:  false
+10 [State 0] Message from guest (0xb7791646): Testing malloc (size)
+10 [State 0] Testing whether data at 0xbfa44090 and size 4 is symbolic:  true
+10 [State 0] Message from guest (0xb7791646): Testing malloc (size)
+10 [State 0] Testing whether data at 0xbfa42a40 and size 4 is symbolic:  false
+10 [State 0] Message from guest (0xb7791646): Testing malloc (size)
+10 [State 0] Testing whether data at 0xbfa42904 and size 4 is symbolic:  false
+10 [State 0] Message from guest (0xb7791646): Testing malloc (size)
+10 [State 0] Testing whether data at 0xbfa42be4 and size 4 is symbolic:  false
+10 [State 0] Message from guest (0xb7791646): Testing malloc (size)
+10 [State 0] Testing whether data at 0xbfa42ee0 and size 4 is symbolic:  false
+10 [State 0] Message from guest (0x92406a4): ./tlib.so(malloc+0x51) [0xb77913ad]
+10 [State 0] Message from guest (0x92406c8): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(_TIFFmalloc+0x1d) [0xb776e98b]
+10 [State 0] Message from guest (0x9240710): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(+0x910e) [0xb775310e]
+10 [State 0] Message from guest (0x924074f): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFReadDirectory+0x19b) [0xb77541d8]
+10 [State 0] Message from guest (0x924079e): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFClientOpen+0x4d6) [0xb7769b99]
+10 [State 0] Message from guest (0x92407ea): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFFdOpen+0x72) [0xb776ea03]
+10 [State 0] Message from guest (0x9240831): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFOpen+0x89) [0xb776ea9a]
+10 [State 0] Message from guest (0x9240876): ../pool/tiff-v3.6.1/tools/tiffinfo() [0x8049a0d]
+10 [State 0] Message from guest (0x92408a7): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75eeca6]
+10 [State 0] Message from guest (0x92408e5): ../pool/tiff-v3.6.1/tools/tiffinfo() [0x8048cb1]
+SymbExpression malloc_size - (Mul w32 (w32 0xc)
+         (ZExt w32 (ReadLSB w16 0x46c8 v0_crax_0)))
+SymbExpression malloc_size - Value: 0xcc
+10 [State 0] Message from guest (0xb7791646): Testing malloc (size)
+10 [State 0] Testing whether data at 0xbfa44030 and size 4 is symbolic:  false
+10 [State 0] Message from guest (0xb77914f2): Testing memset (n)
+10 [State 0] Testing whether data at 0xbfa440a8 and size 4 is symbolic:  false
+10 [State 0] Message from guest (0xb7791646): Testing malloc (size)
+10 [State 0] Testing whether data at 0xbfa43f60 and size 4 is symbolic:  false
+10 [State 0] Message from guest (0xb779161b): Testing realloc (size)
+10 [State 0] Testing whether data at 0xbfa43f34 and size 4 is symbolic:  false
+10 [State 0] Message from guest (0xb779161b): Testing realloc (size)
+10 [State 0] Testing whether data at 0xbfa43f64 and size 4 is symbolic:  false
+11 [State 0] Message from guest (0xb7791646): Testing malloc (size)
+11 [State 0] Testing whether data at 0xbfa44020 and size 4 is symbolic:  true
+11 [State 0] Message from guest (0xb7791646): Testing malloc (size)
+11 [State 0] Testing whether data at 0xbfa42e5c and size 4 is symbolic:  false
+11 [State 0] Message from guest (0x9240b18): ./tlib.so(malloc+0x51) [0xb77913ad]
+11 [State 0] Message from guest (0x9240b3c): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(_TIFFmalloc+0x1d) [0xb776e98b]
+11 [State 0] Message from guest (0x9240b84): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(+0x910e) [0xb775310e]
+11 [State 0] Message from guest (0x9240bc3): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(+0x9c91) [0xb7753c91]
+11 [State 0] Message from guest (0x9240c02): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFReadDirectory+0x1662) [0xb775569f]
+11 [State 0] Message from guest (0x9240c52): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFClientOpen+0x4d6) [0xb7769b99]
+11 [State 0] Message from guest (0x9240c9e): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFFdOpen+0x72) [0xb776ea03]
+11 [State 0] Message from guest (0x9240ce5): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFOpen+0x89) [0xb776ea9a]
+11 [State 0] Message from guest (0x9240d2a): ../pool/tiff-v3.6.1/tools/tiffinfo() [0x8049a0d]
+11 [State 0] Message from guest (0x9240d5b): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75eeca6]
+11 [State 0] Message from guest (0x9240d99): ../pool/tiff-v3.6.1/tools/tiffinfo() [0x8048cb1]
+SymbExpression malloc_size - (Add w32 (w32 0x1)
+         (ReadLSB w32 0x4716 v0_crax_0))
+SymbExpression malloc_size - Value: 0x10
+11 [State 0] Message from guest (0xb7791646): Testing malloc (size)
+11 [State 0] Testing whether data at 0xbfa43ee0 and size 4 is symbolic:  false
+11 [State 0] Message from guest (0xb77914af): Testing memcpy (src)
+11 [State 0] Testing whether data at 0x9240720 and size 15 is symbolic:  false
+11 [State 0] Message from guest (0xb77914cf): Testing memcpy (n)
+11 [State 0] Testing whether data at 0xbfa43ee8 and size 4 is symbolic:  false
+11 [State 0] Message from guest (0xb7791646): Testing malloc (size)
+11 [State 0] Testing whether data at 0xbfa44020 and size 4 is symbolic:  true
+11 [State 0] Message from guest (0xb7791646): Testing malloc (size)
+11 [State 0] Testing whether data at 0xbfa42e5c and size 4 is symbolic:  false
+11 [State 0] Message from guest (0x9240b18): ./tlib.so(malloc+0x51) [0xb77913ad]
+11 [State 0] Message from guest (0x9240b3c): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(_TIFFmalloc+0x1d) [0xb776e98b]
+11 [State 0] Message from guest (0x9240b84): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(+0x910e) [0xb775310e]
+11 [State 0] Message from guest (0x9240bc3): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(+0x9c91) [0xb7753c91]
+11 [State 0] Message from guest (0x9240c02): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFReadDirectory+0x1662) [0xb775569f]
+11 [State 0] Message from guest (0x9240c52): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFClientOpen+0x4d6) [0xb7769b99]
+11 [State 0] Message from guest (0x9240c9e): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFFdOpen+0x72) [0xb776ea03]
+11 [State 0] Message from guest (0x9240ce5): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFOpen+0x89) [0xb776ea9a]
+11 [State 0] Message from guest (0x9240d2a): ../pool/tiff-v3.6.1/tools/tiffinfo() [0x8049a0d]
+11 [State 0] Message from guest (0x9240d5b): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75eeca6]
+11 [State 0] Message from guest (0x9240d99): ../pool/tiff-v3.6.1/tools/tiffinfo() [0x8048cb1]
+SymbExpression malloc_size - (Add w32 (w32 0x1)
+         (ReadLSB w32 0x4722 v0_crax_0))
+SymbExpression malloc_size - Value: 0x14
+11 [State 0] Message from guest (0xb7791646): Testing malloc (size)
+11 [State 0] Testing whether data at 0xbfa43ee0 and size 4 is symbolic:  false
+11 [State 0] Message from guest (0xb77914af): Testing memcpy (src)
+11 [State 0] Testing whether data at 0x9240720 and size 19 is symbolic:  false
+11 [State 0] Message from guest (0xb77914cf): Testing memcpy (n)
+11 [State 0] Testing whether data at 0xbfa43ee8 and size 4 is symbolic:  false
+11 [State 0] Message from guest (0xb7791646): Testing malloc (size)
+11 [State 0] Testing whether data at 0xbfa44050 and size 4 is symbolic:  true
+11 [State 0] Message from guest (0xb7791646): Testing malloc (size)
+11 [State 0] Testing whether data at 0xbfa42e8c and size 4 is symbolic:  false
+11 [State 0] Message from guest (0x9240b18): ./tlib.so(malloc+0x51) [0xb77913ad]
+11 [State 0] Message from guest (0x9240b3c): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(_TIFFmalloc+0x1d) [0xb776e98b]
+11 [State 0] Message from guest (0x9240b84): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(+0x910e) [0xb775310e]
+11 [State 0] Message from guest (0x9240bc3): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(+0x9817) [0xb7753817]
+11 [State 0] Message from guest (0x9240c02): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFReadDirectory+0x134c) [0xb7755389]
+11 [State 0] Message from guest (0x9240c52): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFClientOpen+0x4d6) [0xb7769b99]
+11 [State 0] Message from guest (0x9240c9e): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFFdOpen+0x72) [0xb776ea03]
+11 [State 0] Message from guest (0x9240ce5): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFOpen+0x89) [0xb776ea9a]
+11 [State 0] Message from guest (0x9240d2a): ../pool/tiff-v3.6.1/tools/tiffinfo() [0x8049a0d]
+11 [State 0] Message from guest (0x9240d5b): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75eeca6]
+11 [State 0] Message from guest (0x9240d99): ../pool/tiff-v3.6.1/tools/tiffinfo() [0x8048cb1]
+SymbExpression malloc_size - (Shl w32 (Extract w32 0 (UDiv w64 (ZExt w64 (Add w32 (w32 0xffffffff)
+                                                     (Add w32 (And w32 (Concat w32 (w8 0x0)
+                                                                                   (Concat w24 (w8 0x0)
+                                                                                               (ReadLSB w16 0x46de v0_crax_0)))
+                                                                       (w32 0xffff))
+                                                              N0:(ReadLSB w32 0x4756 v0_crax_0))))
+                                  (ZExt w64 N0)))
+         (w32 0x2))
+SymbExpression malloc_size - Value: 0x4
+11 [State 0] Message from guest (0xb77914f2): Testing memset (n)
+11 [State 0] Testing whether data at 0xbfa440a8 and size 4 is symbolic:  true
+11 [State 0] Message from guest (0xb7791646): Testing malloc (size)
+11 [State 0] Testing whether data at 0xbfa42f04 and size 4 is symbolic:  false
+11 [State 0] Message from guest (0x9240b10): ./tlib.so(memset+0x51) [0xb7790f0d]
+11 [State 0] Message from guest (0x9240b34): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(+0x9840) [0xb7753840]
+11 [State 0] Message from guest (0x9240b73): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFReadDirectory+0x134c) [0xb7755389]
+11 [State 0] Message from guest (0x9240bc3): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFClientOpen+0x4d6) [0xb7769b99]
+11 [State 0] Message from guest (0x9240c0f): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFFdOpen+0x72) [0xb776ea03]
+11 [State 0] Message from guest (0x9240c56): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFOpen+0x89) [0xb776ea9a]
+11 [State 0] Message from guest (0x9240c9b): ../pool/tiff-v3.6.1/tools/tiffinfo() [0x8049a0d]
+11 [State 0] Message from guest (0x9240ccc): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75eeca6]
+11 [State 0] Message from guest (0x9240d0a): ../pool/tiff-v3.6.1/tools/tiffinfo() [0x8048cb1]
+SymbExpression memset_n - (Shl w32 (Extract w32 0 (UDiv w64 (ZExt w64 (Add w32 (w32 0xffffffff)
+                                                     (Add w32 (And w32 (Concat w32 (w8 0x0)
+                                                                                   (Concat w24 (w8 0x0)
+                                                                                               (ReadLSB w16 0x46de v0_crax_0)))
+                                                                       (w32 0xffff))
+                                                              N0:(ReadLSB w32 0x4756 v0_crax_0))))
+                                  (ZExt w64 N0)))
+         (w32 0x2))
+SymbExpression memset_n - Value: 0x4
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x0 value=(Select w32 (Eq (w32 0x0)
+                (Shl w32 (Extract w32 0 (UDiv w64 (ZExt w64 (Add w32 (w32 0xffffffff)
+                                                                     (Add w32 (And w32 (Concat w32 (w8 0x0)
+                                                                                                   (Concat w24 (w8 0x0)
+                                                                                                               (ReadLSB w16 0x46de v0_crax_0)))
+                                                                                       (w32 0xffff))
+                                                                              N0:(ReadLSB w32 0x4756 v0_crax_0))))
+                                                  (ZExt w64 N0)))
+                         (w32 0x2)))
+            (w32 0xb764c77d)
+            (w32 0xb764c751))) expression (Select w32 (Eq (w32 0x0)
+                (Shl w3
+11 [State 0] Message from guest (0xb7791646): Testing malloc (size)
+11 [State 0] Testing whether data at 0xbfa44050 and size 4 is symbolic:  true
+11 [State 0] Message from guest (0xb7791646): Testing malloc (size)
+11 [State 0] Testing whether data at 0xbfa42e8c and size 4 is symbolic:  false
+11 [State 0] Message from guest (0x9240b18): ./tlib.so(malloc+0x51) [0xb77913ad]
+11 [State 0] Message from guest (0x9240b3c): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(_TIFFmalloc+0x1d) [0xb776e98b]
+11 [State 0] Message from guest (0x9240b84): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(+0x910e) [0xb775310e]
+11 [State 0] Message from guest (0x9240bc3): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(+0x9817) [0xb7753817]
+11 [State 0] Message from guest (0x9240c02): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFReadDirectory+0x137f) [0xb77553bc]
+11 [State 0] Message from guest (0x9240c52): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFClientOpen+0x4d6) [0xb7769b99]
+11 [State 0] Message from guest (0x9240c9e): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFFdOpen+0x72) [0xb776ea03]
+11 [State 0] Message from guest (0x9240ce5): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFOpen+0x89) [0xb776ea9a]
+11 [State 0] Message from guest (0x9240d2a): ../pool/tiff-v3.6.1/tools/tiffinfo() [0x8049a0d]
+11 [State 0] Message from guest (0x9240d5b): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75eeca6]
+11 [State 0] Message from guest (0x9240d99): ../pool/tiff-v3.6.1/tools/tiffinfo() [0x8048cb1]
+SymbExpression malloc_size - (Shl w32 (Extract w32 0 (UDiv w64 (ZExt w64 (Add w32 (w32 0xffffffff)
+                                                     (Add w32 (And w32 (Concat w32 (w8 0x0)
+                                                                                   (Concat w24 (w8 0x0)
+                                                                                               (ReadLSB w16 0x46de v0_crax_0)))
+                                                                       (w32 0xffff))
+                                                              N0:(ReadLSB w32 0x4756 v0_crax_0))))
+                                  (ZExt w64 N0)))
+         (w32 0x2))
+SymbExpression malloc_size - Value: 0x4
+11 [State 0] Message from guest (0xb77914f2): Testing memset (n)
+11 [State 0] Testing whether data at 0xbfa440a8 and size 4 is symbolic:  true
+11 [State 0] Message from guest (0xb7791646): Testing malloc (size)
+11 [State 0] Testing whether data at 0xbfa42f04 and size 4 is symbolic:  false
+11 [State 0] Message from guest (0x9240b10): ./tlib.so(memset+0x51) [0xb7790f0d]
+11 [State 0] Message from guest (0x9240b34): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(+0x9840) [0xb7753840]
+11 [State 0] Message from guest (0x9240b73): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFReadDirectory+0x137f) [0xb77553bc]
+11 [State 0] Message from guest (0x9240bc3): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFClientOpen+0x4d6) [0xb7769b99]
+11 [State 0] Message from guest (0x9240c0f): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFFdOpen+0x72) [0xb776ea03]
+11 [State 0] Message from guest (0x9240c56): ../pool/tiff-v3.6.1/libtiff/libtiff.so.3(TIFFOpen+0x89) [0xb776ea9a]
+11 [State 0] Message from guest (0x9240c9b): ../pool/tiff-v3.6.1/tools/tiffinfo() [0x8049a0d]
+11 [State 0] Message from guest (0x9240ccc): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75eeca6]
+11 [State 0] Message from guest (0x9240d0a): ../pool/tiff-v3.6.1/tools/tiffinfo() [0x8048cb1]
+SymbExpression memset_n - (Shl w32 (Extract w32 0 (UDiv w64 (ZExt w64 (Add w32 (w32 0xffffffff)
+                                                     (Add w32 (And w32 (Concat w32 (w8 0x0)
+                                                                                   (Concat w24 (w8 0x0)
+                                                                                               (ReadLSB w16 0x46de v0_crax_0)))
+                                                                       (w32 0xffff))
+                                                              N0:(ReadLSB w32 0x4756 v0_crax_0))))
+                                  (ZExt w64 N0)))
+         (w32 0x2))
+SymbExpression memset_n - Value: 0x4
+11 [State 0] Message from guest (0xb7791458): Testing vfprintf (format)
+11 [State 0] Testing whether data at 0xb778c288 and size 31 is symbolic:  false
+11 [State 0] Message from guest (0xb7791458): Testing vfprintf (format)
+11 [State 0] Testing whether data at 0xb778c2a8 and size 36 is symbolic:  false
+11 [State 0] Message from guest (0xb7791458): Testing vfprintf (format)
+11 [State 0] Testing whether data at 0xb778bce5 and size 20 is symbolic:  false
+11 [State 0] Message from guest (0xb7791458): Testing vfprintf (format)
+11 [State 0] Testing whether data at 0xb778bd44 and size 18 is symbolic:  false
+11 [State 0] Message from guest (0xb7791458): Testing vfprintf (format)
+11 [State 0] Testing whether data at 0xb778c14e and size 3 is symbolic:  false
+11 [State 0] Message from guest (0xb7791458): Testing vfprintf (format)
+11 [State 0] Testing whether data at 0xb778c14e and size 3 is symbolic:  false
+11 [State 0] Message from guest (0xb7791458): Testing vfprintf (format)
+11 [State 0] Testing whether data at 0xb778bc3e and size 7 is symbolic:  false
+11 [State 0] Message from guest (0xb7791458): Testing vfprintf (format)
+11 [State 0] Testing whether data at 0xb778bc3e and size 7 is symbolic:  false
+11 [State 0] Message from guest (0xb7791458): Testing vfprintf (format)
+11 [State 0] Testing whether data at 0xb778c14e and size 3 is symbolic:  false
+11 [State 0] Message from guest (0xb7791458): Testing vfprintf (format)
+11 [State 0] Testing whether data at 0xb778bf9b and size 20 is symbolic:  false
+11 [State 0] Message from guest (0xb7791458): Testing vfprintf (format)
+11 [State 0] Testing whether data at 0xb7771421 and size 4 is symbolic:  false
+11 [State 0] Killing state 0
+11 [State 0] State was terminated by opcode
+            message: "Program terminated"
+            status: 0x0
+All states were terminated

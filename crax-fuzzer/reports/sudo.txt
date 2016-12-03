@@ -1,0 +1,1857 @@
+Creating plugin CorePlugin
+Creating plugin BaseInstructions
+Creating plugin HostFiles
+0 [State 0] Created initial state
+Initing initial device state.
+WARNING!!! All writes to disk will be lost after shutdown.
+13 [State 0] Inserting symbolic data at 0xbfc00d1c of size 0x16 with name 'crax'
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58ba0 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58bb0 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58b90 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58b78 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58b78 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58b78 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58b78 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58b78 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58b78 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58b78 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58b78 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58b78 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58b78 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58b78 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58b78 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58e1c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58e1c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58e1c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58e1c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58e1c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58e1c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58e1c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58e1c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58e1c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58e1c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58e1c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58e1c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58e00 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+13 [State 0] Testing whether data at 0x8057ccc and size 16 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+13 [State 0] Testing whether data at 0xbfd58ec8 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4f2): Testing memset (n)
+13 [State 0] Testing whether data at 0xbfd58ef8 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57e50 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57e50 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d50 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d8c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d34 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d8c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d38 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d8c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d38 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d8c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d38 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d8c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d38 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d38 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d8c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d38 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d8c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d38 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d38 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d8c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d38 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d38 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d8c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d38 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d38 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d8c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d38 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d38 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d8c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d38 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d24 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d74 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d74 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57798 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd5765c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd575d0 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57494 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd578bc and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd578a0 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57cc4 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57cd0 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d20 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d20 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57748 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd5760c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57564 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57428 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57850 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57834 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57cd0 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d20 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57cd0 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d20 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57cd0 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d20 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57cd0 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d20 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d24 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57e50 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+13 [State 0] Testing whether data at 0x8055322 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+13 [State 0] Testing whether data at 0xbfd57e58 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+13 [State 0] Testing whether data at 0x92438b8 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+13 [State 0] Testing whether data at 0xbfd57e58 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57e20 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+13 [State 0] Testing whether data at 0xbfd59f21 and size 9 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+13 [State 0] Testing whether data at 0xbfd57e58 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d88 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d88 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d88 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d88 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d88 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d88 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d88 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d88 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57df0 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57df0 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+13 [State 0] Testing whether data at 0x80552f6 and size 7 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+13 [State 0] Testing whether data at 0xbfd57e28 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57e50 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+13 [State 0] Testing whether data at 0x805536d and size 3 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+13 [State 0] Testing whether data at 0xbfd57e58 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+13 [State 0] Testing whether data at 0xbfd57ed0 and size 19 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+13 [State 0] Testing whether data at 0xbfd57e58 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d34 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57e50 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+13 [State 0] Testing whether data at 0x8055371 and size 3 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+13 [State 0] Testing whether data at 0xbfd57e58 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+13 [State 0] Testing whether data at 0x9245160 and size 9 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+13 [State 0] Testing whether data at 0xbfd57e58 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57e50 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+13 [State 0] Testing whether data at 0x805537f and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+13 [State 0] Testing whether data at 0xbfd57e58 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+13 [State 0] Testing whether data at 0xbfd57e90 and size 6 is symbolic:  false
+13 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+13 [State 0] Testing whether data at 0xbfd57e58 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d88 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d88 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d88 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57d88 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57dc4 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57dd0 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57dd0 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57834 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd576f8 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd5766c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57530 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57590 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57454 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57918 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd5787c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd5787c and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57e10 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd58e50 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57c64 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57c64 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57c64 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57c64 and size 4 is symbolic:  false
+13 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+13 [State 0] Testing whether data at 0xbfd57c64 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58db0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58e50 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xbfd590dc and size 0 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e88 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58e50 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a458): Testing vfprintf (format)
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x228 value=(Concat w64 (w8 0x65)
+            (Concat w56 (w8 0x73)
+                        (Concat w48 (w8 0x20)
+                                    (Concat w40 (w8 0x3a)
+                                                (ReadLSB w32 0x12 v0_crax_0)))))) expression (Concat w64 (w8 0x65)
+            (Concat w56 (w8 0x73)
+                        (Concat w48 (w8 0x20)
+                                    (Concat w40 (w8 0x3a)
+                                                (ReadLSB w32 0x12 v0_crax_0))))) to value 0x6573203a6f647573 (:0)
+14 [State 0] Testing whether data at 0x9246e10 and size 22 is symbolic:  true
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd577f0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd576b4 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd57994 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd57ce0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0x92472f4): ./tlib.so(vfprintf+0x59) [0xb7749cea]
+14 [State 0] Error reading string message from the guest at address 0x924731a
+14 [State 0] Error reading string message from the guest at address 0x924733f
+14 [State 0] Error reading string message from the guest at address 0x9247364
+14 [State 0] Message from guest (0x9247389): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb760bca6]
+14 [State 0] Error reading string message from the guest at address 0x92473c7
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x12 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x13 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x75
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x14 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x64
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x15 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x6f
+SymbExpression vfprintf_format - 0x3a
+SymbExpression vfprintf_format - Value: 0x3a
+SymbExpression vfprintf_format - 0x20
+SymbExpression vfprintf_format - Value: 0x20
+SymbExpression vfprintf_format - 0x73
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - 0x65
+SymbExpression vfprintf_format - Value: 0x65
+SymbExpression vfprintf_format - 0x74
+SymbExpression vfprintf_format - Value: 0x74
+SymbExpression vfprintf_format - 0x74
+SymbExpression vfprintf_format - Value: 0x74
+SymbExpression vfprintf_format - 0x69
+SymbExpression vfprintf_format - Value: 0x69
+SymbExpression vfprintf_format - 0x6e
+SymbExpression vfprintf_format - Value: 0x6e
+SymbExpression vfprintf_format - 0x67
+SymbExpression vfprintf_format - Value: 0x67
+SymbExpression vfprintf_format - 0x73
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - 0x3a
+SymbExpression vfprintf_format - Value: 0x3a
+SymbExpression vfprintf_format - 0x20
+SymbExpression vfprintf_format - Value: 0x20
+SymbExpression vfprintf_format - 0x25
+SymbExpression vfprintf_format - Value: 0x25
+SymbExpression vfprintf_format - 0x73
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - 0x3d
+SymbExpression vfprintf_format - Value: 0x3d
+SymbExpression vfprintf_format - 0x25
+SymbExpression vfprintf_format - Value: 0x25
+SymbExpression vfprintf_format - 0x73
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - 0xa
+SymbExpression vfprintf_format - Value: 0xa
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58e50 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x80546f5 and size 11 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xbfd59d12 and size 1 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a458): Testing vfprintf (format)
+14 [State 0] Testing whether data at 0x9246e10 and size 22 is symbolic:  true
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd57ce0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0x92472f4): ./tlib.so(vfprintf+0x59) [0xb7749cea]
+14 [State 0] Error reading string message from the guest at address 0x924731a
+14 [State 0] Error reading string message from the guest at address 0x924733f
+14 [State 0] Error reading string message from the guest at address 0x9247364
+14 [State 0] Message from guest (0x9247389): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb760bca6]
+14 [State 0] Error reading string message from the guest at address 0x92473c7
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x12 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x13 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x75
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x14 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x64
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x15 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x6f
+SymbExpression vfprintf_format - 0x3a
+SymbExpression vfprintf_format - Value: 0x3a
+SymbExpression vfprintf_format - 0x20
+SymbExpression vfprintf_format - Value: 0x20
+SymbExpression vfprintf_format - 0x73
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - 0x65
+SymbExpression vfprintf_format - Value: 0x65
+SymbExpression vfprintf_format - 0x74
+SymbExpression vfprintf_format - Value: 0x74
+SymbExpression vfprintf_format - 0x74
+SymbExpression vfprintf_format - Value: 0x74
+SymbExpression vfprintf_format - 0x69
+SymbExpression vfprintf_format - Value: 0x69
+SymbExpression vfprintf_format - 0x6e
+SymbExpression vfprintf_format - Value: 0x6e
+SymbExpression vfprintf_format - 0x67
+SymbExpression vfprintf_format - Value: 0x67
+SymbExpression vfprintf_format - 0x73
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - 0x3a
+SymbExpression vfprintf_format - Value: 0x3a
+SymbExpression vfprintf_format - 0x20
+SymbExpression vfprintf_format - Value: 0x20
+SymbExpression vfprintf_format - 0x25
+SymbExpression vfprintf_format - Value: 0x25
+SymbExpression vfprintf_format - 0x73
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - 0x3d
+SymbExpression vfprintf_format - Value: 0x3d
+SymbExpression vfprintf_format - 0x25
+SymbExpression vfprintf_format - Value: 0x25
+SymbExpression vfprintf_format - 0x73
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - 0xa
+SymbExpression vfprintf_format - Value: 0xa
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x228 value=(ReadLSB w64 0x7 v0_crax_0)) expression (ReadLSB w64 0x7 v0_crax_0) to value 0x732f302e382e312d (:0)
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x230 value=(Concat w64 (w8 0x0)
+            (ReadLSB w56 0xf v0_crax_0))) expression (Concat w64 (w8 0x0)
+            (ReadLSB w56 0xf v0_crax_0)) to value 0x6f6475732f6372 (:0)
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58e50 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x8054771 and size 8 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xbfd59d0b and size 4 is symbolic:  true
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd57ce0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0x92472f4): ./tlib.so(memcpy+0x50) [0xb7749e2d]
+14 [State 0] Error reading string message from the guest at address 0x9247318
+14 [State 0] Error reading string message from the guest at address 0x924733d
+14 [State 0] Error reading string message from the guest at address 0x9247362
+14 [State 0] Message from guest (0x9247387): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb760bca6]
+14 [State 0] Error reading string message from the guest at address 0x92473c5
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x12 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x73
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x13 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x75
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x14 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x64
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x15 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x6f
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a458): Testing vfprintf (format)
+14 [State 0] Testing whether data at 0x9246e10 and size 22 is symbolic:  true
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd57ce0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0x92472f4): ./tlib.so(vfprintf+0x59) [0xb7749cea]
+14 [State 0] Error reading string message from the guest at address 0x924731a
+14 [State 0] Error reading string message from the guest at address 0x924733f
+14 [State 0] Error reading string message from the guest at address 0x9247364
+14 [State 0] Message from guest (0x9247389): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb760bca6]
+14 [State 0] Error reading string message from the guest at address 0x92473c7
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x12 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x13 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x75
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x14 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x64
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x15 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x6f
+SymbExpression vfprintf_format - 0x3a
+SymbExpression vfprintf_format - Value: 0x3a
+SymbExpression vfprintf_format - 0x20
+SymbExpression vfprintf_format - Value: 0x20
+SymbExpression vfprintf_format - 0x73
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - 0x65
+SymbExpression vfprintf_format - Value: 0x65
+SymbExpression vfprintf_format - 0x74
+SymbExpression vfprintf_format - Value: 0x74
+SymbExpression vfprintf_format - 0x74
+SymbExpression vfprintf_format - Value: 0x74
+SymbExpression vfprintf_format - 0x69
+SymbExpression vfprintf_format - Value: 0x69
+SymbExpression vfprintf_format - 0x6e
+SymbExpression vfprintf_format - Value: 0x6e
+SymbExpression vfprintf_format - 0x67
+SymbExpression vfprintf_format - Value: 0x67
+SymbExpression vfprintf_format - 0x73
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - 0x3a
+SymbExpression vfprintf_format - Value: 0x3a
+SymbExpression vfprintf_format - 0x20
+SymbExpression vfprintf_format - Value: 0x20
+SymbExpression vfprintf_format - 0x25
+SymbExpression vfprintf_format - Value: 0x25
+SymbExpression vfprintf_format - 0x73
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - 0x3d
+SymbExpression vfprintf_format - Value: 0x3d
+SymbExpression vfprintf_format - 0x25
+SymbExpression vfprintf_format - Value: 0x25
+SymbExpression vfprintf_format - 0x73
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - 0xa
+SymbExpression vfprintf_format - Value: 0xa
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58e50 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x805477a and size 13 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x80547c8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a458): Testing vfprintf (format)
+14 [State 0] Testing whether data at 0x9246e10 and size 22 is symbolic:  true
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd57ce0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0x92472f4): ./tlib.so(vfprintf+0x59) [0xb7749cea]
+14 [State 0] Error reading string message from the guest at address 0x924731a
+14 [State 0] Error reading string message from the guest at address 0x924733f
+14 [State 0] Error reading string message from the guest at address 0x9247364
+14 [State 0] Message from guest (0x9247389): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb760bca6]
+14 [State 0] Error reading string message from the guest at address 0x92473c7
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x12 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x13 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x75
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x14 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x64
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x15 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x6f
+SymbExpression vfprintf_format - 0x3a
+SymbExpression vfprintf_format - Value: 0x3a
+SymbExpression vfprintf_format - 0x20
+SymbExpression vfprintf_format - Value: 0x20
+SymbExpression vfprintf_format - 0x73
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - 0x65
+SymbExpression vfprintf_format - Value: 0x65
+SymbExpression vfprintf_format - 0x74
+SymbExpression vfprintf_format - Value: 0x74
+SymbExpression vfprintf_format - 0x74
+SymbExpression vfprintf_format - Value: 0x74
+SymbExpression vfprintf_format - 0x69
+SymbExpression vfprintf_format - Value: 0x69
+SymbExpression vfprintf_format - 0x6e
+SymbExpression vfprintf_format - Value: 0x6e
+SymbExpression vfprintf_format - 0x67
+SymbExpression vfprintf_format - Value: 0x67
+SymbExpression vfprintf_format - 0x73
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - 0x3a
+SymbExpression vfprintf_format - Value: 0x3a
+SymbExpression vfprintf_format - 0x20
+SymbExpression vfprintf_format - Value: 0x20
+SymbExpression vfprintf_format - 0x25
+SymbExpression vfprintf_format - Value: 0x25
+SymbExpression vfprintf_format - 0x73
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - 0x3d
+SymbExpression vfprintf_format - Value: 0x3d
+SymbExpression vfprintf_format - 0x25
+SymbExpression vfprintf_format - Value: 0x25
+SymbExpression vfprintf_format - 0x73
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - 0xa
+SymbExpression vfprintf_format - Value: 0xa
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58e50 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x80547ba and size 13 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x9246f70 and size 69 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c74 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58cc4 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d04 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c88 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d80 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d80 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c74 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58cc4 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58ca4 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58cb0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d00 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58cb0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d00 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58cb0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d00 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58cb0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d00 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58cb0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d00 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d04 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d80 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d80 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58da0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xbfd590e0 and size 64 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58dd8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743eea8 and size 6 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58da8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743eeaf and size 16 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58da8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743eec0 and size 1 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58da8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743eec2 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58da8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743eec8 and size 35 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58da8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743eeec and size 17 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58da8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743eefe and size 13 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58da8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743ef0c and size 9 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58da8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743eec2 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58da8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743ef16 and size 18 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58da8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743ef29 and size 2 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58da8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743ef2c and size 11 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58da8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743ef38 and size 33 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58da8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c340 and size 3 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c344 and size 6 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c34b and size 11 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c357 and size 11 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c363 and size 11 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c36f and size 7 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c377 and size 11 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c383 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c388 and size 5 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c38e and size 8 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c397 and size 13 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c3a5 and size 8 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c3ae and size 7 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c3b6 and size 3 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c3ba and size 8 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c3c3 and size 3 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c3c7 and size 10 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c3d2 and size 9 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c3dc and size 17 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c3ee and size 13 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c3fc and size 7 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c404 and size 8 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c40d and size 8 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c416 and size 7 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c41e and size 5 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c424 and size 7 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c42c and size 11 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c438 and size 7 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c440 and size 9 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c44a and size 10 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c455 and size 10 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c460 and size 13 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c46e and size 14 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c47d and size 7 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c485 and size 7 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c48d and size 9 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c497 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c49c and size 8 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c4a5 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c4aa and size 7 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c4b2 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c4b7 and size 6 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c4be and size 7 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c4c6 and size 8 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c4cf and size 10 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c4da and size 9 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c4e4 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c4e9 and size 3 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c4ed and size 3 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c4f1 and size 2 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c4f4 and size 10 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d40 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743c4ff and size 14 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d20 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x92472be and size 69 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d50 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d50 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d50 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x924509d and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d88 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d80 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d50 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x92450e4 and size 19 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d88 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d50 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x9245104 and size 9 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d88 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d50 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x924616d and size 6 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d88 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58cac and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c60 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c60 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c60 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c60 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c60 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d50 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c24 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c74 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c08 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d30 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb7739c1c and size 28 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d38 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x9248900 and size 5 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d38 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x9248905 and size 2 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d38 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x924890b and size 5 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d38 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x9248910 and size 6 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d38 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x9248916 and size 10 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d38 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x92481c8 and size 5 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d38 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d20 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d04 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d10 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d30 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb743cf8c and size 12 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58d68 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d60 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d60 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58ce0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58ce0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a431): Testing fread (nmemb)
+14 [State 0] Testing whether data at 0xbfd58cd8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d00 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d30 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d00 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d30 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d30 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d30 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d60 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4f2): Testing memset (n)
+14 [State 0] Testing whether data at 0xbfd58d98 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4f2): Testing memset (n)
+14 [State 0] Testing whether data at 0xbfd58d98 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d30 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d60 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d60 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d30 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d00 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d30 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d30 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d30 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d60 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4f2): Testing memset (n)
+14 [State 0] Testing whether data at 0xbfd58d98 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4f2): Testing memset (n)
+14 [State 0] Testing whether data at 0xbfd58d98 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d30 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d60 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d60 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d30 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58cf0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x924982f and size 14 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58cf8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a61b): Testing realloc (size)
+14 [State 0] Testing whether data at 0xbfd58d04 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c24 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58b80 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58b80 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c60 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c60 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c24 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58cb0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58cb0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a431): Testing fread (nmemb)
+14 [State 0] Testing whether data at 0xbfd58cd8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a431): Testing fread (nmemb)
+14 [State 0] Testing whether data at 0xbfd58cd8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a431): Testing fread (nmemb)
+14 [State 0] Testing whether data at 0xbfd58cd8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58dc8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58dc8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a458): Testing vfprintf (format)
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x228 value=(Concat w64 (w8 0x75)
+            (Concat w56 (w8 0x73)
+                        (Concat w48 (w8 0x20)
+                                    (Concat w40 (w8 0x3a)
+                                                (ReadLSB w32 0x12 v0_crax_0)))))) expression (Concat w64 (w8 0x75)
+            (Concat w56 (w8 0x73)
+                        (Concat w48 (w8 0x20)
+                                    (Concat w40 (w8 0x3a)
+                                                (ReadLSB w32 0x12 v0_crax_0))))) to value 0x7573203a6f647573 (:0)
+14 [State 0] Testing whether data at 0x924d830 and size 19 is symbolic:  true
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd57d64 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0x924d9d0): ./tlib.so(vfprintf+0x59) [0xb7749cea]
+14 [State 0] Error reading string message from the guest at address 0x924d9f6
+14 [State 0] Error reading string message from the guest at address 0x924da1b
+14 [State 0] Message from guest (0x924da40): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb760bca6]
+14 [State 0] Error reading string message from the guest at address 0x924da7e
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x12 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x13 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x75
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x14 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x64
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x15 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x6f
+SymbExpression vfprintf_format - 0x3a
+SymbExpression vfprintf_format - Value: 0x3a
+SymbExpression vfprintf_format - 0x20
+SymbExpression vfprintf_format - Value: 0x20
+SymbExpression vfprintf_format - 0x73
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - 0x75
+SymbExpression vfprintf_format - Value: 0x75
+SymbExpression vfprintf_format - 0x64
+SymbExpression vfprintf_format - Value: 0x64
+SymbExpression vfprintf_format - 0x6f
+SymbExpression vfprintf_format - Value: 0x6f
+SymbExpression vfprintf_format - 0x5f
+SymbExpression vfprintf_format - Value: 0x5f
+SymbExpression vfprintf_format - 0x6d
+SymbExpression vfprintf_format - Value: 0x6d
+SymbExpression vfprintf_format - 0x6f
+SymbExpression vfprintf_format - Value: 0x6f
+SymbExpression vfprintf_format - 0x64
+SymbExpression vfprintf_format - Value: 0x64
+SymbExpression vfprintf_format - 0x65
+SymbExpression vfprintf_format - Value: 0x65
+SymbExpression vfprintf_format - 0x20
+SymbExpression vfprintf_format - Value: 0x20
+SymbExpression vfprintf_format - 0x25
+SymbExpression vfprintf_format - Value: 0x25
+SymbExpression vfprintf_format - 0x64
+SymbExpression vfprintf_format - Value: 0x64
+SymbExpression vfprintf_format - 0xa
+SymbExpression vfprintf_format - Value: 0xa
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58dc0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x92461d0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58df8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d14 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c20 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58b98 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58ba4 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58bf4 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58ba4 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58bf4 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58ba4 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58bf4 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58ba4 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58bf4 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58ba4 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58bf4 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58ba4 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58bf4 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c00 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d10 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xbfd58ce0 and size 96 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58cd8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c80 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58b54 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58ba4 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58b80 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c70 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb7739b94 and size 16 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58c78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x9248f75 and size 2 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58c78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x9248f70 and size 5 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58c78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x924d6c9 and size 5 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58c78 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58c50 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d90 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xb7447400 and size 9 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58dc8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d1c and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d1c and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d1c and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d1c and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d1c and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d1c and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d1c and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d1c and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d1c and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d1c and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d1c and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d1c and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d00 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58cd0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d20 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58cd0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58d20 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58dc8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58dc8 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a458): Testing vfprintf (format)
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x228 value=(Concat w64 (w8 0x6f)
+            (Concat w56 (w8 0x70)
+                        (Concat w48 (w8 0x20)
+                                    (Concat w40 (w8 0x3a)
+                                                (ReadLSB w32 0x12 v0_crax_0)))))) expression (Concat w64 (w8 0x6f)
+            (Concat w56 (w8 0x70)
+                        (Concat w48 (w8 0x20)
+                                    (Concat w40 (w8 0x3a)
+                                                (ReadLSB w32 0x12 v0_crax_0))))) to value 0x6f70203a6f647573 (:0)
+14 [State 0] Testing whether data at 0x9247380 and size 31 is symbolic:  true
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd57d64 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0x9247628): ./tlib.so(vfprintf+0x59) [0xb7749cea]
+14 [State 0] Error reading string message from the guest at address 0x924764e
+14 [State 0] Error reading string message from the guest at address 0x9247673
+14 [State 0] Message from guest (0x9247698): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb760bca6]
+14 [State 0] Error reading string message from the guest at address 0x92476d6
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x12 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x13 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x75
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x14 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x64
+SymbExpression vfprintf_format - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x15 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression vfprintf_format - Value: 0x6f
+SymbExpression vfprintf_format - 0x3a
+SymbExpression vfprintf_format - Value: 0x3a
+SymbExpression vfprintf_format - 0x20
+SymbExpression vfprintf_format - Value: 0x20
+SymbExpression vfprintf_format - 0x70
+SymbExpression vfprintf_format - Value: 0x70
+SymbExpression vfprintf_format - 0x6f
+SymbExpression vfprintf_format - Value: 0x6f
+SymbExpression vfprintf_format - 0x6c
+SymbExpression vfprintf_format - Value: 0x6c
+SymbExpression vfprintf_format - 0x69
+SymbExpression vfprintf_format - Value: 0x69
+SymbExpression vfprintf_format - 0x63
+SymbExpression vfprintf_format - Value: 0x63
+SymbExpression vfprintf_format - 0x79
+SymbExpression vfprintf_format - Value: 0x79
+SymbExpression vfprintf_format - 0x20
+SymbExpression vfprintf_format - Value: 0x20
+SymbExpression vfprintf_format - 0x70
+SymbExpression vfprintf_format - Value: 0x70
+SymbExpression vfprintf_format - 0x6c
+SymbExpression vfprintf_format - Value: 0x6c
+SymbExpression vfprintf_format - 0x75
+SymbExpression vfprintf_format - Value: 0x75
+SymbExpression vfprintf_format - 0x67
+SymbExpression vfprintf_format - Value: 0x67
+SymbExpression vfprintf_format - 0x69
+SymbExpression vfprintf_format - Value: 0x69
+SymbExpression vfprintf_format - 0x6e
+SymbExpression vfprintf_format - Value: 0x6e
+SymbExpression vfprintf_format - 0x20
+SymbExpression vfprintf_format - Value: 0x20
+SymbExpression vfprintf_format - 0x72
+SymbExpression vfprintf_format - Value: 0x72
+SymbExpression vfprintf_format - 0x65
+SymbExpression vfprintf_format - Value: 0x65
+SymbExpression vfprintf_format - 0x74
+SymbExpression vfprintf_format - Value: 0x74
+SymbExpression vfprintf_format - 0x75
+SymbExpression vfprintf_format - Value: 0x75
+SymbExpression vfprintf_format - 0x72
+SymbExpression vfprintf_format - Value: 0x72
+SymbExpression vfprintf_format - 0x6e
+SymbExpression vfprintf_format - Value: 0x6e
+SymbExpression vfprintf_format - 0x73
+SymbExpression vfprintf_format - Value: 0x73
+SymbExpression vfprintf_format - 0x20
+SymbExpression vfprintf_format - Value: 0x20
+SymbExpression vfprintf_format - 0x25
+SymbExpression vfprintf_format - Value: 0x25
+SymbExpression vfprintf_format - 0x64
+SymbExpression vfprintf_format - Value: 0x64
+SymbExpression vfprintf_format - 0xa
+SymbExpression vfprintf_format - Value: 0xa
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd58e30 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x8054c70 and size 7 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xbfd59d0b and size 4 is symbolic:  true
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd57ce0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0x92493bc): ./tlib.so(memcpy+0x50) [0xb7749e2d]
+14 [State 0] Error reading string message from the guest at address 0x92493e0
+14 [State 0] Error reading string message from the guest at address 0x9249405
+14 [State 0] Error reading string message from the guest at address 0x924942a
+14 [State 0] Message from guest (0x924944f): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb760bca6]
+14 [State 0] Error reading string message from the guest at address 0x924948d
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x12 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x73
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x13 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x75
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x14 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x64
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x15 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x6f
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x8054b00 and size 29 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x8054c70 and size 7 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xbfd59d0b and size 4 is symbolic:  true
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd57ce0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0x92493bc): ./tlib.so(memcpy+0x50) [0xb7749e2d]
+14 [State 0] Error reading string message from the guest at address 0x92493e0
+14 [State 0] Error reading string message from the guest at address 0x9249405
+14 [State 0] Error reading string message from the guest at address 0x924942a
+14 [State 0] Message from guest (0x924944f): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb760bca6]
+14 [State 0] Error reading string message from the guest at address 0x924948d
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x12 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x73
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x13 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x75
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x14 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x64
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x15 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x6f
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x8054b20 and size 74 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x8054c70 and size 7 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xbfd59d0b and size 4 is symbolic:  true
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd57ce0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0x92493bc): ./tlib.so(memcpy+0x50) [0xb7749e2d]
+14 [State 0] Error reading string message from the guest at address 0x92493e0
+14 [State 0] Error reading string message from the guest at address 0x9249405
+14 [State 0] Error reading string message from the guest at address 0x924942a
+14 [State 0] Message from guest (0x924944f): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb760bca6]
+14 [State 0] Error reading string message from the guest at address 0x924948d
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x12 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x73
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x13 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x75
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x14 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x64
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x15 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x6f
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x8054b6c and size 122 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x8054c70 and size 7 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xbfd59d0b and size 4 is symbolic:  true
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd57ce0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0x92493bc): ./tlib.so(memcpy+0x50) [0xb7749e2d]
+14 [State 0] Error reading string message from the guest at address 0x92493e0
+14 [State 0] Error reading string message from the guest at address 0x9249405
+14 [State 0] Error reading string message from the guest at address 0x924942a
+14 [State 0] Message from guest (0x924944f): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb760bca6]
+14 [State 0] Error reading string message from the guest at address 0x924948d
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x12 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x73
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x13 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x75
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x14 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x64
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x15 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x6f
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x8054be8 and size 135 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x8054c70 and size 7 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0xbfd59d0b and size 4 is symbolic:  true
+14 [State 0] Message from guest (0xb774a646): Testing malloc (size)
+14 [State 0] Testing whether data at 0xbfd57ce0 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0x92493bc): ./tlib.so(memcpy+0x50) [0xb7749e2d]
+14 [State 0] Error reading string message from the guest at address 0x92493e0
+14 [State 0] Error reading string message from the guest at address 0x9249405
+14 [State 0] Error reading string message from the guest at address 0x924942a
+14 [State 0] Message from guest (0x924944f): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb760bca6]
+14 [State 0] Error reading string message from the guest at address 0x924948d
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x12 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x73
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x13 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x75
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x14 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x64
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x15 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x6f
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4af): Testing memcpy (src)
+14 [State 0] Testing whether data at 0x8054aa4 and size 91 is symbolic:  false
+14 [State 0] Message from guest (0xb774a4cf): Testing memcpy (n)
+14 [State 0] Testing whether data at 0xbfd58e58 and size 4 is symbolic:  false
+15 [State 0] Killing state 0
+15 [State 0] State was terminated by opcode
+            message: "Program terminated"
+            status: 0x0
+All states were terminated

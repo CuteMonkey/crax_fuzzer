@@ -1,0 +1,71 @@
+New Features in Exim
+--------------------
+
+This file contains descriptions of new features that have been added to Exim,
+but have not yet made it into the main manual (which is most conveniently
+updated when there is a relatively large batch of changes). The doc/ChangeLog
+file contains a listing of all changes, including bug fixes.
+
+
+Version 4.40
+------------
+
+The documentation is up-to-date for the 4.40 release. What follows here is a
+brief list of the new features that have been added since 4.30.
+
+ 1. log_incoming_interface affects more log lines.
+
+ 2. New ACL modifier "control = submission".
+
+ 3. CONFIGURE_OWNER can be set at build time to define an alternative owner for
+    the configuration file, in addition to root and exim.
+
+ 4. Added expansion variables $body_zerocount, $recipient_data, and
+    $sender_data.
+
+ 5. The time of last modification of the "new" subdirectory is now used as the
+    "mailbox time last read" when there is a quota error for a maildir
+    delivery.
+
+ 6. The special item "+ignore_unknown" may now appear in host lists.
+
+ 7. The special domain-matching patterns @mx_any, @mx_primary, and
+    @mx_secondary can now be followed by "/ignore=<ip list>".
+
+ 8. New expansion conditions: match_domain, match_address, match_local_part,
+    lt, lti, le, lei, gt, gti, ge, and new expansion operators time_interval,
+    eval10, and base62d.
+
+ 9. New lookup type called "iplsearch".
+
+10. New log selectors ident_timeout, tls_certificate_verified, queue_time,
+    deliver_time, outgoing_port, return_path_on_delivery.
+
+11. New global options smtp_active_hostname and tls_require_ciphers.
+
+12. Exinext has -C and -D options.
+
+13. "domainlist_cache" forces caching of an apparently variable list.
+
+14. For compatibility with Sendmail, the command line option -prval:sval
+    is equivalent to -oMr rval -oMs sval.
+
+15. New callout options use_sender and use_postmaster for use when verifying
+    recipients.
+
+16. John Jetmore's "exipick" utility has been added to the distribution.
+
+17. The TLS code now supports CRLs.
+
+18. The dnslookup router and the dnsdb lookup type now support the use of SRV
+    records.
+
+19. The redirect router has a new option called qualify_domain.
+
+20. exigrep's output now also includes lines that are not related to any
+    particular message, but which do match the pattern.
+
+21. New global option write_rejectlog. If it is set false, Exim no longer
+    writes anything to the reject log.
+
+****

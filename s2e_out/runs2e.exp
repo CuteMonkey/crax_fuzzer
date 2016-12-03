@@ -1,0 +1,18 @@
+#!/usr/bin/expect
+#Boot snapshot in s2e mode.
+#Useage: ./runs2e.exp <s2e-config-file> <snapshot-name>
+
+set timeout 120
+
+if {$argc != 2} {
+    puts "Usage: ./runs2e.exp <s2e-config-file> <snapshot-name> \r";
+    exit 1
+}
+
+set s2e_config [lindex $argv 0]
+set snapshot_name [lindex $argv 1]
+
+spawn ../build/qemu-release/i386-s2e-softmmu/qemu-system-i386 /home/chengte/disk_images/s2e_guest.raw.s2e -s2e-config-file \
+$s2e_config -s2e-verbose -net none -nographic -loadvm $snapshot_name
+
+interact

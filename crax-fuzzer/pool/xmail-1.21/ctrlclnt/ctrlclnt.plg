@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ctrlclnt - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\TEMP\RSP2E.tmp" with contents
+[
+/nologo /Zp1 /MTd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "XMAIL_X86" /Fp"Debug/ctrlclnt.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\projects\mailsvr\CTRLClient.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP2E.tmp" 
+<h3>Output Window</h3>
+Compiling...
+CTRLClient.cpp
+
+
+
+<h3>Results</h3>
+CTRLClient.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,338 @@
+Total 47
+
+path constraint 1:
+(Eq (w32 0x1)
+    (And w32 (AShr w32 (Add w32 (w32 0xff0001)
+                                N0:(LShr w32 (And w32 (Add w32 (w32 0xffffffff)
+                                                               N1:(And w32 (And w32 (Add w32 (w32 0xfefefeff)
+                                                                                             N2:(Concat w32 (Read w8 0x1 v0_scrax_0)
+                                                                                                            (Concat w24 (Read w8 0x0 v0_scrax_0) (w16 0x74))))
+                                                                                    (Xor w32 (w32 0xffffffff) N2))
+                                                                           (w32 0x80808080)))
+                                                      (Xor w32 (w32 0xffffffff) N1))
+                                             (w32 0x7)))
+                       (w32 0x17))
+             N0))
+------------
+path constraint 2:
+(Eq (w64 0x6c796c2d00746163)
+    (Concat w64 (Read w8 0x3 v0_scrax_0)
+                (Concat w56 (Read w8 0x2 v0_scrax_0)
+                            (Concat w48 (Read w8 0x1 v0_scrax_0)
+                                        (Concat w40 (Read w8 0x0 v0_scrax_0) (w32 0x746163))))))
+------------
+path constraint 3:
+(Eq (w64 0x524554006c61636f)
+    (Concat w64 (w8 0x52)
+                (Concat w56 (w8 0x45)
+                            (Concat w48 (w8 0x54)
+                                        (Concat w40 (w8 0x0)
+                                                    (ReadLSB w32 0x4 v0_scrax_0))))))
+------------
+path constraint 4:
+(Eq (w32 0x0)
+    (And w32 (Add w32 (w32 0xffffffd3)
+                      (ZExt w32 (Read w8 0x0 v0_scrax_0)))
+             (w32 0xff)))
+------------
+path constraint 5:
+(Eq false
+    (Ult (w8 0x78) (Read w8 0x1 v0_scrax_0)))
+------------
+path constraint 6:
+(Eq (w32 0x1b0)
+    (Shl w32 (ZExt w32 (Read w8 0x1 v0_scrax_0))
+             (w32 0x2)))
+------------
+path constraint 7:
+(Eq false
+    (Ult (w32 0x13)
+         (And w32 (Add w32 (w32 0x9a)
+                           (ZExt w32 (Read w8 0x2 v0_scrax_0)))
+                  (w32 0xfc))))
+------------
+path constraint 8:
+(Eq (w32 0x4c)
+    (Shl w32 (And w32 (Add w32 (w32 0xffffff9a)
+                               (ZExt w32 (Read w8 0x2 v0_scrax_0)))
+                      (w32 0xff))
+             (w32 0x2)))
+------------
+path constraint 9:
+(Eq false
+    (Ult (w32 0x35)
+         (And w32 (Add w32 (w32 0xbc)
+                           (AShr w32 (Shl w32 (Concat w32 (w8 0x0)
+                                                          (Concat w24 (w8 0x0)
+                                                                      (Concat w16 (w8 0x0) (Read w8 0x2 v0_scrax_0))))
+                                              (w32 0x18))
+                                     (w32 0x18)))
+                  (w32 0xfe))))
+------------
+path constraint 10:
+(Eq (w32 0xd4)
+    (Shl w32 (And w32 (Add w32 (w32 0xffffffbc)
+                               (AShr w32 (Shl w32 (Concat w32 (w8 0x0)
+                                                              (Concat w24 (w8 0x0)
+                                                                          (Concat w16 (w8 0x0) (Read w8 0x2 v0_scrax_0))))
+                                                  (w32 0x18))
+                                         (w32 0x18)))
+                      (w32 0xff))
+             (w32 0x2)))
+------------
+path constraint 11:
+(Eq false
+    (Eq (w8 0x0) (Read w8 0x3 v0_scrax_0)))
+------------
+path constraint 12:
+(Eq (w32 0x1b0)
+    (Shl w32 (Concat w32 (w8 0x0)
+                         (Concat w24 (w8 0x0)
+                                     (Concat w16 (w8 0x0) (Read w8 0x3 v0_scrax_0))))
+             (w32 0x2)))
+------------
+path constraint 13:
+(Eq (w32 0x1bc)
+    (Shl w32 (ZExt w32 (Read w8 0x4 v0_scrax_0))
+             (w32 0x2)))
+------------
+path constraint 14:
+(Eq (w32 0x18c)
+    (Shl w32 (ZExt w32 (Read w8 0x5 v0_scrax_0))
+             (w32 0x2)))
+------------
+path constraint 15:
+(Eq (w32 0x184)
+    (Shl w32 (ZExt w32 (Read w8 0x6 v0_scrax_0))
+             (w32 0x2)))
+------------
+path constraint 16:
+(Eq (w32 0x1b0)
+    (Shl w32 (ZExt w32 (Read w8 0x7 v0_scrax_0))
+             (w32 0x2)))
+------------
+path constraint 17:
+(Eq (w32 0x1b0)
+    (Shl w32 (ZExt w32 (Read w8 0x3 v0_scrax_0))
+             (w32 0x2)))
+------------
+path constraint 18:
+(Eq false
+    (Eq (w32 0x0)
+        (And w32 (Sub w32 (w32 0x0)
+                          (ZExt w32 (Read w8 0x3 v0_scrax_0)))
+                 (w32 0xff))))
+------------
+path constraint 19:
+(Eq false
+    (Eq (w32 0x0)
+        (And w32 (Sub w32 (w32 0x0)
+                          (ZExt w32 (Read w8 0x4 v0_scrax_0)))
+                 (w32 0xff))))
+------------
+path constraint 20:
+(Eq false
+    (Eq (w32 0x0)
+        (And w32 (Sub w32 (w32 0x0)
+                          (ZExt w32 (Read w8 0x5 v0_scrax_0)))
+                 (w32 0xff))))
+------------
+path constraint 21:
+(Eq false
+    (Eq (w32 0x0)
+        (And w32 (Sub w32 (w32 0x0)
+                          (ZExt w32 (Read w8 0x6 v0_scrax_0)))
+                 (w32 0xff))))
+------------
+path constraint 22:
+(Eq false
+    (Eq (w32 0x0)
+        (And w32 (Sub w32 (w32 0x0)
+                          (ZExt w32 (Read w8 0x7 v0_scrax_0)))
+                 (w32 0xff))))
+------------
+path constraint 23:
+(Eq false
+    (Eq (w32 0x0)
+        (Concat w32 (w8 0x0)
+                    (Concat w24 (w8 0x0)
+                                (Concat w16 (w8 0x0)
+                                            (ZExt w8 (Ult (Add w32 (w32 0xfefefeff)
+                                                                   (Concat w32 (Read w8 0x4 v0_scrax_0)
+                                                                               (Concat w24 (Read w8 0x3 v0_scrax_0) (w16 0x2220))))
+                                                          (w32 0xfefefeff))))))))
+------------
+path constraint 24:
+(Eq (w32 0x0)
+    (And w32 (Xor w32 (Sub w32 (w32 0xffffffff)
+                               N0:(Concat w32 (Read w8 0x4 v0_scrax_0)
+                                              (Concat w24 (Read w8 0x3 v0_scrax_0) (w16 0x2220))))
+                      (Add w32 (w32 0xfefefeff) N0))
+             (w32 0x1010100)))
+------------
+path constraint 25:
+(Eq false
+    (Eq (w32 0x0)
+        (Concat w32 (w8 0x0)
+                    (Concat w24 (w8 0x0)
+                                (Concat w16 (w8 0x0)
+                                            (ZExt w8 (Ult (Add w32 (w32 0xfefefeff)
+                                                                   (Concat w32 (w8 0x22)
+                                                                               (ReadLSB w24 0x5 v0_scrax_0)))
+                                                          (w32 0xfefefeff))))))))
+------------
+path constraint 26:
+(Eq (w32 0x0)
+    (And w32 (Xor w32 (Sub w32 (w32 0xffffffff)
+                               N0:(Concat w32 (w8 0x22)
+                                              (ReadLSB w24 0x5 v0_scrax_0)))
+                      (Add w32 (w32 0xfefefeff) N0))
+             (w32 0x1010100)))
+------------
+path constraint 27:
+(Eq (w64 0x6f6c22207974696c)
+    (Concat w64 (Read w8 0x4 v0_scrax_0)
+                (Concat w56 (Read w8 0x3 v0_scrax_0) (w48 0x22207974696c))))
+------------
+path constraint 28:
+(Eq (w64 0x2000a226c6163)
+    (Concat w64 (w8 0x0)
+                (Concat w56 (w8 0x2)
+                            (Concat w48 (w8 0x0)
+                                        (Concat w40 (w8 0xa)
+                                                    (Concat w32 (w8 0x22)
+                                                                (ReadLSB w24 0x5 v0_scrax_0)))))))
+------------
+path constraint 29:
+(Ult (Add w32 (w32 0xfefefeff)
+              N0:(Xor w32 (w32 0x25252525)
+                          (Concat w32 (Read w8 0x4 v0_scrax_0)
+                                      (Concat w24 (Read w8 0x3 v0_scrax_0) (w16 0x2220)))))
+     N0)
+------------
+path constraint 30:
+(Eq (w32 0xffffffff)
+    (Or w32 (Xor w32 (Add w32 (w32 0xfefefeff)
+                              N0:(Xor w32 (w32 0x25252525)
+                                          (Concat w32 (Read w8 0x4 v0_scrax_0)
+                                                      (Concat w24 (Read w8 0x3 v0_scrax_0) (w16 0x2220)))))
+                     N0)
+            (w32 0xfefefeff)))
+------------
+path constraint 31:
+(Ult (Add w32 (w32 0xfefefeff)
+              N0:(Xor w32 (w32 0x25252525)
+                          (Xor w32 (w32 0x25252525)
+                                   (Concat w32 (Read w8 0x4 v0_scrax_0)
+                                               (Concat w24 (Read w8 0x3 v0_scrax_0) (w16 0x2220))))))
+     N0)
+------------
+path constraint 32:
+(Eq (w32 0xffffffff)
+    (Or w32 (Xor w32 (Add w32 (w32 0xfefefeff)
+                              N0:(Xor w32 (w32 0x25252525)
+                                          (Xor w32 (w32 0x25252525)
+                                                   (Concat w32 (Read w8 0x4 v0_scrax_0)
+                                                               (Concat w24 (Read w8 0x3 v0_scrax_0) (w16 0x2220))))))
+                     N0)
+            (w32 0xfefefeff)))
+------------
+path constraint 33:
+(Ult (Add w32 (w32 0xfefefeff)
+              N0:(Xor w32 (w32 0x25252525)
+                          (Concat w32 (w8 0x22)
+                                      (ReadLSB w24 0x5 v0_scrax_0))))
+     N0)
+------------
+path constraint 34:
+(Eq (w32 0xffffffff)
+    (Or w32 (Xor w32 (Add w32 (w32 0xfefefeff)
+                              (Xor w32 (w32 0x25252525)
+                                       (Concat w32 (w8 0x22)
+                                                   (ReadLSB w24 0x5 v0_scrax_0))))
+                     (Xor w32 (w32 0x25252525)
+                              (Concat w32 (w8 0x22)
+                                          (Concat w24 N0:(Read w8 0x7 v0_scrax_0)
+                                                      (Concat w16 N1:(Read w8 0x6 v0_scrax_0) (w8 0x0))))))
+            (w32 0xfefefeff)))
+------------
+path constraint 35:
+(Ult (Add w32 (w32 0xfefefeff)
+              N0:(Xor w32 (w32 0x25252525)
+                          (Xor w32 (w32 0x25252525)
+                                   (Concat w32 (w8 0x22)
+                                               (ReadLSB w24 0x5 v0_scrax_0)))))
+     N0)
+------------
+path constraint 36:
+(Eq (w32 0xffffffff)
+    (Or w32 (Xor w32 (Add w32 (w32 0xfefefeff)
+                              (Xor w32 (w32 0x25252525)
+                                       (Xor w32 (w32 0x25252525)
+                                                (Concat w32 (w8 0x22)
+                                                            (ReadLSB w24 0x5 v0_scrax_0)))))
+                     (Xor w32 (w32 0x25252525)
+                              (Xor w32 (w32 0x25252525)
+                                       (Concat w32 (w8 0x22)
+                                                   (Concat w24 N0:(Read w8 0x7 v0_scrax_0)
+                                                               (Concat w16 N1:(Read w8 0x6 v0_scrax_0) (w8 0x0)))))))
+            (w32 0xfefefeff)))
+------------
+path constraint 37:
+(Eq (w64 0x6c61636f6c222079)
+    (Concat w64 (Read w8 0x7 v0_scrax_0)
+                (Concat w56 (Read w8 0x6 v0_scrax_0)
+                            (Concat w48 (Read w8 0x5 v0_scrax_0)
+                                        (Concat w40 (Read w8 0x4 v0_scrax_0)
+                                                    (Concat w32 (Read w8 0x3 v0_scrax_0) (w24 0x222079)))))))
+------------
+path constraint 38:
+(Ult (w8 0x1f) (Read w8 0x3 v0_scrax_0))
+------------
+path constraint 39:
+(Eq (w32 0x0)
+    (And w32 (Concat w32 (w8 0x0)
+                         (Concat w24 (w8 0x0)
+                                     (Concat w16 (w8 0x0) (Read w8 0x3 v0_scrax_0))))
+             (w32 0x80)))
+------------
+path constraint 40:
+(Ult (w8 0x1f) (Read w8 0x4 v0_scrax_0))
+------------
+path constraint 41:
+(Eq (w32 0x0)
+    (And w32 (Concat w32 (w8 0x0)
+                         (Concat w24 (w8 0x0)
+                                     (Concat w16 (w8 0x0) (Read w8 0x4 v0_scrax_0))))
+             (w32 0x80)))
+------------
+path constraint 42:
+(Ult (w8 0x1f) (Read w8 0x5 v0_scrax_0))
+------------
+path constraint 43:
+(Eq (w32 0x0)
+    (And w32 (Concat w32 (w8 0x0)
+                         (Concat w24 (w8 0x0)
+                                     (Concat w16 (w8 0x0) (Read w8 0x5 v0_scrax_0))))
+             (w32 0x80)))
+------------
+path constraint 44:
+(Ult (w8 0x1f) (Read w8 0x6 v0_scrax_0))
+------------
+path constraint 45:
+(Eq (w32 0x0)
+    (And w32 (Concat w32 (w8 0x0)
+                         (Concat w24 (w8 0x0)
+                                     (Concat w16 (w8 0x0) (Read w8 0x6 v0_scrax_0))))
+             (w32 0x80)))
+------------
+path constraint 46:
+(Ult (w8 0x1f) (Read w8 0x7 v0_scrax_0))
+------------
+path constraint 47:
+(Eq (w32 0x0)
+    (And w32 (Concat w32 (w8 0x0)
+                         (Concat w24 (w8 0x0)
+                                     (Concat w16 (w8 0x0) (Read w8 0x7 v0_scrax_0))))
+             (w32 0x80)))
+------------

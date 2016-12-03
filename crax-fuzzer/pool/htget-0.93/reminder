@@ -1,0 +1,7 @@
+
+Don't forget to copy the htgetrc file in the current directory to your
+home directory as .htgetrc. Doing so allows you to configure htget to do
+things that would otherwise only be possible with long sets of command line
+options.
+
+

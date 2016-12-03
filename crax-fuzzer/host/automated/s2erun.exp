@@ -1,0 +1,32 @@
+#!/usr/bin/expect
+
+# Load a snapshot in s2e mode
+
+if {$argc != 2} {
+    puts "Usage: ./s2erun.exp <loadvm Name> <Guest Exec Command> \r"
+    exit 1
+}
+
+set timeout 120
+set snapshotName [lindex $argv 0]
+set guestCmd [lindex $argv 1]
+
+spawn build/qemu-release/i386-s2e-softmmu/qemu-system-i386 image/s2e_disk.raw.s2e -s2e-config-file crax-fuzzer/host/config.lua -s2e-verbose -net none -nographic -loadvm $snapshotName
+set pid1 $spawn_id
+
+send "\n"
+
+expect {
+    #timeout { puts stderr "Error_string: ':~$'"; exit 1 }
+    "@debian" {
+        send "cd crax-fuzzer/guest/\n"
+    }
+}
+
+expect {
+    "@debian" {
+        send "$guestCmd\n"
+    }
+}
+
+interact

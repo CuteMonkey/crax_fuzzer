@@ -1,0 +1,1254 @@
+Creating plugin CorePlugin
+Creating plugin BaseInstructions
+Creating plugin HostFiles
+1 [State 0] Created initial state
+Initing initial device state.
+WARNING!!! All writes to disk will be lost after shutdown.
+15 [State 0] Inserting symbolic data at 0xbfbc4bc0 of size 0x19 with name 'crax'
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbee584 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb772358e): Testing strcpy (src)
+15 [State 0] Testing whether data at 0xbfbefc30 and size 13 is symbolic:  false
+15 [State 0] Message from guest (0xb77235ae): Testing strcpy (\0)
+15 [State 0] Testing whether data at 0xbfbefc3d and size 1 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbee584 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbee584 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723458): Testing vfprintf (format)
+15 [State 0] Testing whether data at 0x804bc5c and size 157 is symbolic:  false
+15 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+15 [State 0] Testing whether data at 0x804bcfa and size 3 is symbolic:  false
+15 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+15 [State 0] Testing whether data at 0xbfbee5c8 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+15 [State 0] Testing whether data at 0x804bcfd and size 17 is symbolic:  false
+15 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+15 [State 0] Testing whether data at 0xbfbee5c8 and size 4 is symbolic:  false
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x228 value=(ReadLSB w64 0x0 v0_crax_0)) expression (ReadLSB w64 0x0 v0_crax_0) to value 0x772f2f3a70747468 (:0)
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x230 value=(ReadLSB w64 0x8 v0_crax_0)) expression (ReadLSB w64 0x8 v0_crax_0) to value 0x636e2e73632e7777 (:0)
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x228 value=(ReadLSB w64 0x10 v0_crax_0)) expression (ReadLSB w64 0x10 v0_crax_0) to value 0x742e7564652e7574 (:0)
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x230 value=(Concat w64 (w8 0x54)
+            (Concat w56 (w8 0x5f)
+                        (Concat w48 (w8 0x53)
+                                    (Concat w40 (w8 0x53)
+                                                (Concat w32 (w8 0x45)
+                                                            (Concat w24 (w8 0x4c)
+                                                                        (Concat w16 (w8 0x0) (Read w8 0x18 v0_crax_0))))))))) expression (Concat w64 (w8 0x54)
+            (Concat w56 (w8 0x5f)
+                        (Concat w48 (w8 0x53)
+                                    (Concat w40 (w8 0x53)
+                                                (Concat w32 (w8 0x45)
+                                                            (Concat w24 (w8 0x4c)
+                                                                        (Concat w16 (w8 0x0) (Read w8 0x18 v0_crax_0)))))))) to value 0x545f5353454c0077 (:0)
+15 [State 0] Message from guest (0xb772358e): Testing strcpy (src)
+15 [State 0] Testing whether data at 0xbfbefba0 and size 25 is symbolic:  true
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbecf60 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbece24 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbed104 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbed478 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0x86ac40c): ./tlib.so(strcpy+0x5e) [0xb772316a]
+15 [State 0] Message from guest (0x86ac430): ../htget-0.93/htget(main+0xb92) [0x8049f16]
+15 [State 0] Message from guest (0x86ac45c): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75edca6]
+15 [State 0] Message from guest (0x86ac49a): ../htget-0.93/htget() [0x80492f1]
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x0 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x68
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x1 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x74
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x2 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x74
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x3 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x70
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x4 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x3a
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x5 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2f
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x6 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2f
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x7 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x77
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x8 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x77
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x9 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x77
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xa v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xb v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x63
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xc v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x73
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xd v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xe v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x6e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xf v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x63
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x10 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x74
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x11 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x75
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x12 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x13 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x65
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x14 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x64
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x15 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x75
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x16 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x17 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x74
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x18 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x77
+15 [State 0] Message from guest (0xb77235ae): Testing strcpy (\0)
+15 [State 0] Testing whether data at 0xbfbefbb9 and size 1 is symbolic:  false
+15 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+15 [State 0] Testing whether data at 0x804c240 and size 17 is symbolic:  false
+15 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+15 [State 0] Testing whether data at 0xbfbeb0d8 and size 4 is symbolic:  false
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x228 value=(Concat w64 (Read w8 0x5 v0_crax_0)
+            (Concat w56 (Read w8 0x4 v0_crax_0)
+                        (Concat w48 (Read w8 0x3 v0_crax_0)
+                                    (Concat w40 (Read w8 0x2 v0_crax_0)
+                                                (Concat w32 (Read w8 0x1 v0_crax_0)
+                                                            (Concat w24 (Read w8 0x0 v0_crax_0) (w16 0x0)))))))) expression (Concat w64 (Read w8 0x5 v0_crax_0)
+            (Concat w56 (Read w8 0x4 v0_crax_0)
+                        (Concat w48 (Read w8 0x3 v0_crax_0)
+                                    (Concat w40 (Read w8 0x2 v0_crax_0)
+                                                (Concat w32 (Read w8 0x1 v0_crax_0)
+                                                            (Concat w24 (Read w8 0x0 v0_crax_0) (w16 0x0))))))) to value 0x2f3a707474680000 (:0)
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x230 value=(ReadLSB w64 0x6 v0_crax_0)) expression (ReadLSB w64 0x6 v0_crax_0) to value 0x2e73632e7777772f (:0)
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x228 value=(ReadLSB w64 0xe v0_crax_0)) expression (ReadLSB w64 0xe v0_crax_0) to value 0x7564652e7574636e (:0)
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x230 value=(Concat w64 (w8 0x0)
+            (Concat w56 (w8 0x0)
+                        (Concat w48 (w8 0x0)
+                                    (Concat w40 (w8 0x0)
+                                                (Concat w32 (w8 0x0)
+                                                            (ReadLSB w24 0x16 v0_crax_0))))))) expression (Concat w64 (w8 0x0)
+            (Concat w56 (w8 0x0)
+                        (Concat w48 (w8 0x0)
+                                    (Concat w40 (w8 0x0)
+                                                (Concat w32 (w8 0x0)
+                                                            (ReadLSB w24 0x16 v0_crax_0)))))) to value 0x77742e (:0)
+15 [State 0] Message from guest (0xb77234f2): Testing memset (n)
+15 [State 0] Testing whether data at 0xbfbeaea8 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77234f2): Testing memset (n)
+15 [State 0] Testing whether data at 0xbfbeaea8 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77234f2): Testing memset (n)
+15 [State 0] Testing whether data at 0xbfbeaea8 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb772358e): Testing strcpy (src)
+15 [State 0] Testing whether data at 0xbfbee5d2 and size 25 is symbolic:  true
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbe9d30 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0x86ac414): ./tlib.so(strcpy+0x5e) [0xb772316a]
+15 [State 0] Message from guest (0x86ac438): ../htget-0.93/htget(ProcessURL+0x84) [0x804b109]
+15 [State 0] Message from guest (0x86ac469): ../htget-0.93/htget(HTGet+0x73) [0x804a24a]
+15 [State 0] Message from guest (0x86ac495): ../htget-0.93/htget(main+0xc9c) [0x804a020]
+15 [State 0] Message from guest (0x86ac4c1): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75edca6]
+15 [State 0] Message from guest (0x86ac4ff): ../htget-0.93/htget() [0x80492f1]
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x0 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x68
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x1 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x74
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x2 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x74
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x3 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x70
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x4 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x3a
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x5 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2f
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x6 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2f
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x7 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x77
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x8 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x77
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x9 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x77
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xa v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xb v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x63
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xc v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x73
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xd v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xe v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x6e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xf v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x63
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x10 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x74
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x11 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x75
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x12 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x13 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x65
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x14 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x64
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x15 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x75
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x16 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x17 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x74
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x18 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x77
+15 [State 0] Message from guest (0xb77235ae): Testing strcpy (\0)
+15 [State 0] Testing whether data at 0xbfbee5eb and size 1 is symbolic:  false
+15 [State 0] Message from guest (0xb772358e): Testing strcpy (src)
+15 [State 0] Testing whether data at 0xbfbee5d9 and size 18 is symbolic:  true
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbe9d30 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0x86ac414): ./tlib.so(strcpy+0x5e) [0xb772316a]
+15 [State 0] Message from guest (0x86ac438): ../htget-0.93/htget(ProcessURL+0xbe) [0x804b143]
+15 [State 0] Message from guest (0x86ac469): ../htget-0.93/htget(HTGet+0x73) [0x804a24a]
+15 [State 0] Message from guest (0x86ac495): ../htget-0.93/htget(main+0xc9c) [0x804a020]
+15 [State 0] Message from guest (0x86ac4c1): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75edca6]
+15 [State 0] Message from guest (0x86ac4ff): ../htget-0.93/htget() [0x80492f1]
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x7 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x77
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x8 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x77
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x9 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x77
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xa v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xb v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x63
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xc v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x73
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xd v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xe v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x6e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xf v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x63
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x10 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x74
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x11 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x75
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x12 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x13 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x65
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x14 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x64
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x15 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x75
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x16 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x17 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x74
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x18 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x77
+15 [State 0] Message from guest (0xb77235ae): Testing strcpy (\0)
+15 [State 0] Testing whether data at 0xbfbee5eb and size 1 is symbolic:  false
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x230 value=(Concat w64 (Read w8 0xa v0_crax_0)
+            (Concat w56 (Read w8 0x9 v0_crax_0)
+                        (Concat w48 (Read w8 0x8 v0_crax_0)
+                                    (Concat w40 (Read w8 0x7 v0_crax_0) (w32 0x0)))))) expression (Concat w64 (Read w8 0xa v0_crax_0)
+            (Concat w56 (Read w8 0x9 v0_crax_0)
+                        (Concat w48 (Read w8 0x8 v0_crax_0)
+                                    (Concat w40 (Read w8 0x7 v0_crax_0) (w32 0x0))))) to value 0x2e77777700000000 (:0)
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x228 value=(ReadLSB w64 0xb v0_crax_0)) expression (ReadLSB w64 0xb v0_crax_0) to value 0x2e7574636e2e7363 (:0)
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x230 value=(Concat w64 (w8 0x0)
+            (Concat w56 (w8 0x0)
+                        (ReadLSB w48 0x13 v0_crax_0)))) expression (Concat w64 (w8 0x0)
+            (Concat w56 (w8 0x0)
+                        (ReadLSB w48 0x13 v0_crax_0))) to value 0x77742e756465 (:0)
+15 [State 0] Message from guest (0xb77235d3): Testing strncpy (src)
+15 [State 0] Testing whether data at 0xbfbeaebc and size 18 is symbolic:  true
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbe9d30 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0x86ac414): ./tlib.so(strncpy+0x5e) [0xb7723257]
+15 [State 0] Message from guest (0x86ac439): ../htget-0.93/htget(ProcessURL+0x13a) [0x804b1bf]
+15 [State 0] Message from guest (0x86ac46b): ../htget-0.93/htget(HTGet+0x73) [0x804a24a]
+15 [State 0] Message from guest (0x86ac497): ../htget-0.93/htget(main+0xc9c) [0x804a020]
+15 [State 0] Message from guest (0x86ac4c3): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75edca6]
+15 [State 0] Message from guest (0x86ac501): ../htget-0.93/htget() [0x80492f1]
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x7 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x77
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x8 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x77
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x9 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x77
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xa v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x2e
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xb v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x63
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xc v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x73
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xd v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x2e
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xe v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x6e
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xf v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x63
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x10 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x74
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x11 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x75
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x12 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x2e
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x13 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x65
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x14 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x64
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x15 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x75
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x16 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x2e
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x17 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x74
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x18 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x77
+15 [State 0] Message from guest (0xb77235f5): Testing strncpy (n)
+15 [State 0] Testing whether data at 0xbfbeaea8 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb772358e): Testing strcpy (src)
+15 [State 0] Testing whether data at 0xbfbeaece and size 0 is symbolic:  false
+15 [State 0] Message from guest (0xb77235ae): Testing strcpy (\0)
+15 [State 0] Testing whether data at 0xbfbeaece and size 1 is symbolic:  false
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x230 value=(Concat w64 (Read w8 0x3 v0_crax_0)
+            (Concat w56 (Read w8 0x2 v0_crax_0) (w48 0x2f00000000)))) expression (Concat w64 (Read w8 0x3 v0_crax_0)
+            (Concat w56 (Read w8 0x2 v0_crax_0) (w48 0x2f00000000))) to value 0x7074002f00000000 (:0)
+15 [State 0] Message from guest (0xb772358e): Testing strcpy (src)
+15 [State 0] Testing whether data at 0xbfbeafbc and size 1 is symbolic:  false
+15 [State 0] Message from guest (0xb77235ae): Testing strcpy (\0)
+15 [State 0] Testing whether data at 0xbfbeafbd and size 1 is symbolic:  false
+15 [State 0] Message from guest (0xb772358e): Testing strcpy (src)
+15 [State 0] Testing whether data at 0xbfbec38d and size 0 is symbolic:  false
+15 [State 0] Message from guest (0xb77235ae): Testing strcpy (\0)
+15 [State 0] Testing whether data at 0xbfbec38d and size 1 is symbolic:  false
+15 [State 0] Message from guest (0xb772358e): Testing strcpy (src)
+15 [State 0] Testing whether data at 0xbfbec48c and size 18 is symbolic:  true
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbe9d30 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0x86ac414): ./tlib.so(strcpy+0x5e) [0xb772316a]
+15 [State 0] Message from guest (0x86ac438): ../htget-0.93/htget(ProcessURL+0x277) [0x804b2fc]
+15 [State 0] Message from guest (0x86ac46a): ../htget-0.93/htget(HTGet+0x73) [0x804a24a]
+15 [State 0] Message from guest (0x86ac496): ../htget-0.93/htget(main+0xc9c) [0x804a020]
+15 [State 0] Message from guest (0x86ac4c2): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75edca6]
+15 [State 0] Message from guest (0x86ac500): ../htget-0.93/htget() [0x80492f1]
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x7 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x77
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x8 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x77
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x9 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x77
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xa v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xb v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x63
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xc v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x73
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xd v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xe v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x6e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xf v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x63
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x10 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x74
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x11 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x75
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x12 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x13 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x65
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x14 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x64
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x15 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x75
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x16 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x17 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x74
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x18 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x77
+15 [State 0] Message from guest (0xb77235ae): Testing strcpy (\0)
+15 [State 0] Testing whether data at 0xbfbec49e and size 1 is symbolic:  false
+15 [State 0] Message from guest (0xb772358e): Testing strcpy (src)
+15 [State 0] Testing whether data at 0xbfbec28c and size 18 is symbolic:  true
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbe9f74 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0x86ac410): ./tlib.so(strcpy+0x5e) [0xb772316a]
+15 [State 0] Message from guest (0x86ac434): ../htget-0.93/htget(HTGet+0x104) [0x804a2db]
+15 [State 0] Message from guest (0x86ac461): ../htget-0.93/htget(main+0xc9c) [0x804a020]
+15 [State 0] Message from guest (0x86ac48d): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75edca6]
+15 [State 0] Message from guest (0x86ac4cb): ../htget-0.93/htget() [0x80492f1]
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x7 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x77
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x8 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x77
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x9 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x77
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xa v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xb v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x63
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xc v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x73
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xd v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xe v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x6e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xf v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x63
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x10 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x74
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x11 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x75
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x12 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x13 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x65
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x14 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x64
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x15 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x75
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x16 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x2e
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x17 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x74
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x18 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x77
+15 [State 0] Message from guest (0xb77235ae): Testing strcpy (\0)
+15 [State 0] Testing whether data at 0xbfbec29e and size 1 is symbolic:  false
+15 [State 0] Message from guest (0xb772358e): Testing strcpy (src)
+15 [State 0] Testing whether data at 0x804d8e0 and size 2 is symbolic:  false
+15 [State 0] Message from guest (0xb77235ae): Testing strcpy (\0)
+15 [State 0] Testing whether data at 0x804d8e2 and size 1 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeb094 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeb094 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeb04c and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbe8ec4 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbe8e80 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf3c and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf78 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf20 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf78 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf24 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf78 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf24 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf78 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf24 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf78 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf24 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf24 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf78 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf24 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf78 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf24 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf24 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf78 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf24 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf24 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf78 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf24 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf24 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf78 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf24 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf24 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf78 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf24 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf10 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf60 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf60 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbea984 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbea848 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeab28 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeae50 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf18 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf3c and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf8c and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaf8c and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbea9b4 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbea878 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbea7ec and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbea6b0 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaad8 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbeaabc and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+15 [State 0] Testing whether data at 0xbfbe9b65 and size 4 is symbolic:  true
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbe88b0 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0x86ad7b4): ./tlib.so(memcpy+0x50) [0xb7722e2d]
+15 [State 0] Message from guest (0x86ad7d8): /lib/i686/cmov/libresolv.so.2(ns_name_pack+0x127) [0xb7597597]
+15 [State 0] Message from guest (0x86ad817): /lib/i686/cmov/libresolv.so.2(ns_name_compress+0x57) [0xb7598007]
+15 [State 0] Message from guest (0x86ad859): /lib/i686/cmov/libresolv.so.2(__res_nmkquery+0x111) [0xb7593471]
+15 [State 0] Message from guest (0x86ad89a): /lib/i686/cmov/libresolv.so.2(__libc_res_nquery+0xdc) [0xb759384c]
+15 [State 0] Message from guest (0x86ad8dd): /lib/i686/cmov/libresolv.so.2(+0x6e8b) [0xb7593e8b]
+15 [State 0] Message from guest (0x86ad911): /lib/i686/cmov/libresolv.so.2(__libc_res_nsearch+0x34f) [0xb75942cf]
+15 [State 0] Message from guest (0x86ad956): /lib/i686/cmov/libnss_dns.so.2(_nss_dns_gethostbyname3_r+0x126) [0xb75a3ba6]
+15 [State 0] Message from guest (0x86ad9a3): /lib/i686/cmov/libnss_dns.so.2(_nss_dns_gethostbyname_r+0x6b) [0xb75a3e4b]
+15 [State 0] Message from guest (0x86ad9ee): /lib/i686/cmov/libc.so.6(gethostbyname_r+0x1ae) [0xb76ba94e]
+15 [State 0] Message from guest (0x86ada2b): /lib/i686/cmov/libc.so.6(gethostbyname+0xe6) [0xb76ba1a6]
+15 [State 0] Message from guest (0x86ada65): ../htget-0.93/htget(TCPConnect+0x11) [0x804ac6e]
+15 [State 0] Message from guest (0x86ada96): ../htget-0.93/htget(HTGet+0x41f) [0x804a5f6]
+15 [State 0] Message from guest (0x86adac3): ../htget-0.93/htget(main+0xc9c) [0x804a020]
+15 [State 0] Message from guest (0x86adaef): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75edca6]
+15 [State 0] Message from guest (0x86adb2d): ../htget-0.93/htget() [0x80492f1]
+SymbExpression memcpy_src - 0x3
+SymbExpression memcpy_src - Value: 0x3
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x7 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x77
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x8 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x77
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x9 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x77
+15 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+15 [State 0] Testing whether data at 0xbfbe9af0 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+15 [State 0] Testing whether data at 0xbfbe9b69 and size 3 is symbolic:  true
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbe88b0 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0x86ad7b4): ./tlib.so(memcpy+0x50) [0xb7722e2d]
+15 [State 0] Message from guest (0x86ad7d8): /lib/i686/cmov/libresolv.so.2(ns_name_pack+0x127) [0xb7597597]
+15 [State 0] Message from guest (0x86ad817): /lib/i686/cmov/libresolv.so.2(ns_name_compress+0x57) [0xb7598007]
+15 [State 0] Message from guest (0x86ad859): /lib/i686/cmov/libresolv.so.2(__res_nmkquery+0x111) [0xb7593471]
+15 [State 0] Message from guest (0x86ad89a): /lib/i686/cmov/libresolv.so.2(__libc_res_nquery+0xdc) [0xb759384c]
+15 [State 0] Message from guest (0x86ad8dd): /lib/i686/cmov/libresolv.so.2(+0x6e8b) [0xb7593e8b]
+15 [State 0] Message from guest (0x86ad911): /lib/i686/cmov/libresolv.so.2(__libc_res_nsearch+0x34f) [0xb75942cf]
+15 [State 0] Message from guest (0x86ad956): /lib/i686/cmov/libnss_dns.so.2(_nss_dns_gethostbyname3_r+0x126) [0xb75a3ba6]
+15 [State 0] Message from guest (0x86ad9a3): /lib/i686/cmov/libnss_dns.so.2(_nss_dns_gethostbyname_r+0x6b) [0xb75a3e4b]
+15 [State 0] Message from guest (0x86ad9ee): /lib/i686/cmov/libc.so.6(gethostbyname_r+0x1ae) [0xb76ba94e]
+15 [State 0] Message from guest (0x86ada2b): /lib/i686/cmov/libc.so.6(gethostbyname+0xe6) [0xb76ba1a6]
+15 [State 0] Message from guest (0x86ada65): ../htget-0.93/htget(TCPConnect+0x11) [0x804ac6e]
+15 [State 0] Message from guest (0x86ada96): ../htget-0.93/htget(HTGet+0x41f) [0x804a5f6]
+15 [State 0] Message from guest (0x86adac3): ../htget-0.93/htget(main+0xc9c) [0x804a020]
+15 [State 0] Message from guest (0x86adaef): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75edca6]
+15 [State 0] Message from guest (0x86adb2d): ../htget-0.93/htget() [0x80492f1]
+SymbExpression memcpy_src - 0x2
+SymbExpression memcpy_src - Value: 0x2
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Extract w8 0 (AShr w32 (Shl w32 (Concat w32 (w8 0x0)
+                                                                                        (Concat w24 (w8 0x0)
+                                                                                                    (Concat w16 (w8 0x0) (Read w8 0xb v0_crax_0))))
+                                                                            (w32 0x18))
+                                                                   (w32 0x18)))))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x63
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xc v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x73
+15 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+15 [State 0] Testing whether data at 0xbfbe9af0 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+15 [State 0] Testing whether data at 0xbfbe9b6c and size 5 is symbolic:  true
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbe88b0 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0x86ad7b4): ./tlib.so(memcpy+0x50) [0xb7722e2d]
+15 [State 0] Message from guest (0x86ad7d8): /lib/i686/cmov/libresolv.so.2(ns_name_pack+0x127) [0xb7597597]
+15 [State 0] Message from guest (0x86ad817): /lib/i686/cmov/libresolv.so.2(ns_name_compress+0x57) [0xb7598007]
+15 [State 0] Message from guest (0x86ad859): /lib/i686/cmov/libresolv.so.2(__res_nmkquery+0x111) [0xb7593471]
+15 [State 0] Message from guest (0x86ad89a): /lib/i686/cmov/libresolv.so.2(__libc_res_nquery+0xdc) [0xb759384c]
+15 [State 0] Message from guest (0x86ad8dd): /lib/i686/cmov/libresolv.so.2(+0x6e8b) [0xb7593e8b]
+15 [State 0] Message from guest (0x86ad911): /lib/i686/cmov/libresolv.so.2(__libc_res_nsearch+0x34f) [0xb75942cf]
+15 [State 0] Message from guest (0x86ad956): /lib/i686/cmov/libnss_dns.so.2(_nss_dns_gethostbyname3_r+0x126) [0xb75a3ba6]
+15 [State 0] Message from guest (0x86ad9a3): /lib/i686/cmov/libnss_dns.so.2(_nss_dns_gethostbyname_r+0x6b) [0xb75a3e4b]
+15 [State 0] Message from guest (0x86ad9ee): /lib/i686/cmov/libc.so.6(gethostbyname_r+0x1ae) [0xb76ba94e]
+15 [State 0] Message from guest (0x86ada2b): /lib/i686/cmov/libc.so.6(gethostbyname+0xe6) [0xb76ba1a6]
+15 [State 0] Message from guest (0x86ada65): ../htget-0.93/htget(TCPConnect+0x11) [0x804ac6e]
+15 [State 0] Message from guest (0x86ada96): ../htget-0.93/htget(HTGet+0x41f) [0x804a5f6]
+15 [State 0] Message from guest (0x86adac3): ../htget-0.93/htget(main+0xc9c) [0x804a020]
+15 [State 0] Message from guest (0x86adaef): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75edca6]
+15 [State 0] Message from guest (0x86adb2d): ../htget-0.93/htget() [0x80492f1]
+SymbExpression memcpy_src - 0x4
+SymbExpression memcpy_src - Value: 0x4
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Extract w8 0 (AShr w32 (Shl w32 (Concat w32 (w8 0x0)
+                                                                                        (Concat w24 (w8 0x0)
+                                                                                                    (Concat w16 (w8 0x0) (Read w8 0xe v0_crax_0))))
+                                                                            (w32 0x18))
+                                                                   (w32 0x18)))))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x6e
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0xf v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x63
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x10 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x74
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x11 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x75
+15 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+15 [State 0] Testing whether data at 0xbfbe9af0 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+15 [State 0] Testing whether data at 0xbfbe9b71 and size 4 is symbolic:  true
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbe88b0 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0x86ad7b4): ./tlib.so(memcpy+0x50) [0xb7722e2d]
+15 [State 0] Message from guest (0x86ad7d8): /lib/i686/cmov/libresolv.so.2(ns_name_pack+0x127) [0xb7597597]
+15 [State 0] Message from guest (0x86ad817): /lib/i686/cmov/libresolv.so.2(ns_name_compress+0x57) [0xb7598007]
+15 [State 0] Message from guest (0x86ad859): /lib/i686/cmov/libresolv.so.2(__res_nmkquery+0x111) [0xb7593471]
+15 [State 0] Message from guest (0x86ad89a): /lib/i686/cmov/libresolv.so.2(__libc_res_nquery+0xdc) [0xb759384c]
+15 [State 0] Message from guest (0x86ad8dd): /lib/i686/cmov/libresolv.so.2(+0x6e8b) [0xb7593e8b]
+15 [State 0] Message from guest (0x86ad911): /lib/i686/cmov/libresolv.so.2(__libc_res_nsearch+0x34f) [0xb75942cf]
+15 [State 0] Message from guest (0x86ad956): /lib/i686/cmov/libnss_dns.so.2(_nss_dns_gethostbyname3_r+0x126) [0xb75a3ba6]
+15 [State 0] Message from guest (0x86ad9a3): /lib/i686/cmov/libnss_dns.so.2(_nss_dns_gethostbyname_r+0x6b) [0xb75a3e4b]
+15 [State 0] Message from guest (0x86ad9ee): /lib/i686/cmov/libc.so.6(gethostbyname_r+0x1ae) [0xb76ba94e]
+15 [State 0] Message from guest (0x86ada2b): /lib/i686/cmov/libc.so.6(gethostbyname+0xe6) [0xb76ba1a6]
+15 [State 0] Message from guest (0x86ada65): ../htget-0.93/htget(TCPConnect+0x11) [0x804ac6e]
+15 [State 0] Message from guest (0x86ada96): ../htget-0.93/htget(HTGet+0x41f) [0x804a5f6]
+15 [State 0] Message from guest (0x86adac3): ../htget-0.93/htget(main+0xc9c) [0x804a020]
+15 [State 0] Message from guest (0x86adaef): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75edca6]
+15 [State 0] Message from guest (0x86adb2d): ../htget-0.93/htget() [0x80492f1]
+SymbExpression memcpy_src - 0x3
+SymbExpression memcpy_src - Value: 0x3
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Extract w8 0 (AShr w32 (Shl w32 (Concat w32 (w8 0x0)
+                                                                                        (Concat w24 (w8 0x0)
+                                                                                                    (Concat w16 (w8 0x0) (Read w8 0x13 v0_crax_0))))
+                                                                            (w32 0x18))
+                                                                   (w32 0x18)))))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x65
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x14 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x64
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x15 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x75
+15 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+15 [State 0] Testing whether data at 0xbfbe9af0 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+15 [State 0] Testing whether data at 0xbfbe9b75 and size 3 is symbolic:  true
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbe88b0 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0x86ad7b4): ./tlib.so(memcpy+0x50) [0xb7722e2d]
+15 [State 0] Message from guest (0x86ad7d8): /lib/i686/cmov/libresolv.so.2(ns_name_pack+0x127) [0xb7597597]
+15 [State 0] Message from guest (0x86ad817): /lib/i686/cmov/libresolv.so.2(ns_name_compress+0x57) [0xb7598007]
+15 [State 0] Message from guest (0x86ad859): /lib/i686/cmov/libresolv.so.2(__res_nmkquery+0x111) [0xb7593471]
+15 [State 0] Message from guest (0x86ad89a): /lib/i686/cmov/libresolv.so.2(__libc_res_nquery+0xdc) [0xb759384c]
+15 [State 0] Message from guest (0x86ad8dd): /lib/i686/cmov/libresolv.so.2(+0x6e8b) [0xb7593e8b]
+15 [State 0] Message from guest (0x86ad911): /lib/i686/cmov/libresolv.so.2(__libc_res_nsearch+0x34f) [0xb75942cf]
+15 [State 0] Message from guest (0x86ad956): /lib/i686/cmov/libnss_dns.so.2(_nss_dns_gethostbyname3_r+0x126) [0xb75a3ba6]
+15 [State 0] Message from guest (0x86ad9a3): /lib/i686/cmov/libnss_dns.so.2(_nss_dns_gethostbyname_r+0x6b) [0xb75a3e4b]
+15 [State 0] Message from guest (0x86ad9ee): /lib/i686/cmov/libc.so.6(gethostbyname_r+0x1ae) [0xb76ba94e]
+15 [State 0] Message from guest (0x86ada2b): /lib/i686/cmov/libc.so.6(gethostbyname+0xe6) [0xb76ba1a6]
+15 [State 0] Message from guest (0x86ada65): ../htget-0.93/htget(TCPConnect+0x11) [0x804ac6e]
+15 [State 0] Message from guest (0x86ada96): ../htget-0.93/htget(HTGet+0x41f) [0x804a5f6]
+15 [State 0] Message from guest (0x86adac3): ../htget-0.93/htget(main+0xc9c) [0x804a020]
+15 [State 0] Message from guest (0x86adaef): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75edca6]
+15 [State 0] Message from guest (0x86adb2d): ../htget-0.93/htget() [0x80492f1]
+SymbExpression memcpy_src - 0x2
+SymbExpression memcpy_src - Value: 0x2
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Extract w8 0 (AShr w32 (Shl w32 (Concat w32 (w8 0x0)
+                                                                                        (Concat w24 (w8 0x0)
+                                                                                                    (Concat w16 (w8 0x0) (Read w8 0x17 v0_crax_0))))
+                                                                            (w32 0x18))
+                                                                   (w32 0x18)))))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x74
+SymbExpression memcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x18 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression memcpy_src - Value: 0x77
+15 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+15 [State 0] Testing whether data at 0xbfbe9af0 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+15 [State 0] Testing whether data at 0xbfbe9b78 and size 1 is symbolic:  false
+15 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+15 [State 0] Testing whether data at 0xbfbe9af0 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbfbe9c14 and size 4 is symbolic:  false
+KLEE: WARNING: silently concretizing (reason: memory access from concrete code) expression (Read w8 0x7 v0_crax_0) to value 0x77 (:0)
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0xbfbe9d3d and size 3 is symbolic:  true
+16 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+16 [State 0] Testing whether data at 0xbfbe83f4 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0x86ad7dc): ./tlib.so(memcpy+0x50) [0xb7722e2d]
+16 [State 0] Message from guest (0x86ad800): /lib/i686/cmov/libresolv.so.2(ns_name_unpack+0xef) [0xb75978ff]
+16 [State 0] Message from guest (0x86ad840): /lib/i686/cmov/libresolv.so.2(ns_name_uncompress+0x3a) [0xb75983ba]
+16 [State 0] Message from guest (0x86ad884): /lib/i686/cmov/libresolv.so.2(dn_expand+0x2e) [0xb759124e]
+16 [State 0] Message from guest (0x86ad8bf): /lib/i686/cmov/libresolv.so.2(__res_queriesmatch+0xc6) [0xb7595376]
+16 [State 0] Message from guest (0x86ad903): /lib/i686/cmov/libresolv.so.2(+0x8dc7) [0xb7595dc7]
+16 [State 0] Message from guest (0x86ad937): /lib/i686/cmov/libresolv.so.2(__libc_res_nquery+0x153) [0xb75938c3]
+16 [State 0] Message from guest (0x86ad97b): /lib/i686/cmov/libresolv.so.2(+0x6e8b) [0xb7593e8b]
+16 [State 0] Message from guest (0x86ad9af): /lib/i686/cmov/libresolv.so.2(__libc_res_nsearch+0x34f) [0xb75942cf]
+16 [State 0] Message from guest (0x86ad9f4): /lib/i686/cmov/libnss_dns.so.2(_nss_dns_gethostbyname3_r+0x126) [0xb75a3ba6]
+16 [State 0] Message from guest (0x86ada41): /lib/i686/cmov/libnss_dns.so.2(_nss_dns_gethostbyname_r+0x6b) [0xb75a3e4b]
+16 [State 0] Message from guest (0x86ada8c): /lib/i686/cmov/libc.so.6(gethostbyname_r+0x1ae) [0xb76ba94e]
+16 [State 0] Message from guest (0x86adac9): /lib/i686/cmov/libc.so.6(gethostbyname+0xe6) [0xb76ba1a6]
+16 [State 0] Message from guest (0x86adb03): ../htget-0.93/htget(TCPConnect+0x11) [0x804ac6e]
+16 [State 0] Message from guest (0x86adb34): ../htget-0.93/htget(HTGet+0x41f) [0x804a5f6]
+16 [State 0] Message from guest (0x86adb61): ../htget-0.93/htget(main+0xc9c) [0x804a020]
+16 [State 0] Message from guest (0x86adb8d): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75edca6]
+16 [State 0] Message from guest (0x86adbcb): ../htget-0.93/htget() [0x80492f1]
+SymbExpression memcpy_src - 0x77
+SymbExpression memcpy_src - Value: 0x77
+SymbExpression memcpy_src - 0x77
+SymbExpression memcpy_src - Value: 0x77
+SymbExpression memcpy_src - 0x77
+SymbExpression memcpy_src - Value: 0x77
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbe965c and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0xbfbe9d41 and size 2 is symbolic:  true
+16 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+16 [State 0] Testing whether data at 0xbfbe83f4 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0x86ad7dc): ./tlib.so(memcpy+0x50) [0xb7722e2d]
+16 [State 0] Message from guest (0x86ad800): /lib/i686/cmov/libresolv.so.2(ns_name_unpack+0xef) [0xb75978ff]
+16 [State 0] Message from guest (0x86ad840): /lib/i686/cmov/libresolv.so.2(ns_name_uncompress+0x3a) [0xb75983ba]
+16 [State 0] Message from guest (0x86ad884): /lib/i686/cmov/libresolv.so.2(dn_expand+0x2e) [0xb759124e]
+16 [State 0] Message from guest (0x86ad8bf): /lib/i686/cmov/libresolv.so.2(__res_queriesmatch+0xc6) [0xb7595376]
+16 [State 0] Message from guest (0x86ad903): /lib/i686/cmov/libresolv.so.2(+0x8dc7) [0xb7595dc7]
+16 [State 0] Message from guest (0x86ad937): /lib/i686/cmov/libresolv.so.2(__libc_res_nquery+0x153) [0xb75938c3]
+16 [State 0] Message from guest (0x86ad97b): /lib/i686/cmov/libresolv.so.2(+0x6e8b) [0xb7593e8b]
+16 [State 0] Message from guest (0x86ad9af): /lib/i686/cmov/libresolv.so.2(__libc_res_nsearch+0x34f) [0xb75942cf]
+16 [State 0] Message from guest (0x86ad9f4): /lib/i686/cmov/libnss_dns.so.2(_nss_dns_gethostbyname3_r+0x126) [0xb75a3ba6]
+16 [State 0] Message from guest (0x86ada41): /lib/i686/cmov/libnss_dns.so.2(_nss_dns_gethostbyname_r+0x6b) [0xb75a3e4b]
+16 [State 0] Message from guest (0x86ada8c): /lib/i686/cmov/libc.so.6(gethostbyname_r+0x1ae) [0xb76ba94e]
+16 [State 0] Message from guest (0x86adac9): /lib/i686/cmov/libc.so.6(gethostbyname+0xe6) [0xb76ba1a6]
+16 [State 0] Message from guest (0x86adb03): ../htget-0.93/htget(TCPConnect+0x11) [0x804ac6e]
+16 [State 0] Message from guest (0x86adb34): ../htget-0.93/htget(HTGet+0x41f) [0x804a5f6]
+16 [State 0] Message from guest (0x86adb61): ../htget-0.93/htget(main+0xc9c) [0x804a020]
+16 [State 0] Message from guest (0x86adb8d): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75edca6]
+16 [State 0] Message from guest (0x86adbcb): ../htget-0.93/htget() [0x80492f1]
+SymbExpression memcpy_src - 0x63
+SymbExpression memcpy_src - Value: 0x63
+SymbExpression memcpy_src - 0x73
+SymbExpression memcpy_src - Value: 0x73
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbe965c and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0xbfbe9d44 and size 4 is symbolic:  true
+16 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+16 [State 0] Testing whether data at 0xbfbe83f4 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0x86ad7dc): ./tlib.so(memcpy+0x50) [0xb7722e2d]
+16 [State 0] Message from guest (0x86ad800): /lib/i686/cmov/libresolv.so.2(ns_name_unpack+0xef) [0xb75978ff]
+16 [State 0] Message from guest (0x86ad840): /lib/i686/cmov/libresolv.so.2(ns_name_uncompress+0x3a) [0xb75983ba]
+16 [State 0] Message from guest (0x86ad884): /lib/i686/cmov/libresolv.so.2(dn_expand+0x2e) [0xb759124e]
+16 [State 0] Message from guest (0x86ad8bf): /lib/i686/cmov/libresolv.so.2(__res_queriesmatch+0xc6) [0xb7595376]
+16 [State 0] Message from guest (0x86ad903): /lib/i686/cmov/libresolv.so.2(+0x8dc7) [0xb7595dc7]
+16 [State 0] Message from guest (0x86ad937): /lib/i686/cmov/libresolv.so.2(__libc_res_nquery+0x153) [0xb75938c3]
+16 [State 0] Message from guest (0x86ad97b): /lib/i686/cmov/libresolv.so.2(+0x6e8b) [0xb7593e8b]
+16 [State 0] Message from guest (0x86ad9af): /lib/i686/cmov/libresolv.so.2(__libc_res_nsearch+0x34f) [0xb75942cf]
+16 [State 0] Message from guest (0x86ad9f4): /lib/i686/cmov/libnss_dns.so.2(_nss_dns_gethostbyname3_r+0x126) [0xb75a3ba6]
+16 [State 0] Message from guest (0x86ada41): /lib/i686/cmov/libnss_dns.so.2(_nss_dns_gethostbyname_r+0x6b) [0xb75a3e4b]
+16 [State 0] Message from guest (0x86ada8c): /lib/i686/cmov/libc.so.6(gethostbyname_r+0x1ae) [0xb76ba94e]
+16 [State 0] Message from guest (0x86adac9): /lib/i686/cmov/libc.so.6(gethostbyname+0xe6) [0xb76ba1a6]
+16 [State 0] Message from guest (0x86adb03): ../htget-0.93/htget(TCPConnect+0x11) [0x804ac6e]
+16 [State 0] Message from guest (0x86adb34): ../htget-0.93/htget(HTGet+0x41f) [0x804a5f6]
+16 [State 0] Message from guest (0x86adb61): ../htget-0.93/htget(main+0xc9c) [0x804a020]
+16 [State 0] Message from guest (0x86adb8d): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75edca6]
+16 [State 0] Message from guest (0x86adbcb): ../htget-0.93/htget() [0x80492f1]
+SymbExpression memcpy_src - 0x6e
+SymbExpression memcpy_src - Value: 0x6e
+SymbExpression memcpy_src - 0x63
+SymbExpression memcpy_src - Value: 0x63
+SymbExpression memcpy_src - 0x74
+SymbExpression memcpy_src - Value: 0x74
+SymbExpression memcpy_src - 0x75
+SymbExpression memcpy_src - Value: 0x75
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbe965c and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0xbfbe9d49 and size 3 is symbolic:  true
+16 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+16 [State 0] Testing whether data at 0xbfbe83f4 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0x86ad7dc): ./tlib.so(memcpy+0x50) [0xb7722e2d]
+16 [State 0] Message from guest (0x86ad800): /lib/i686/cmov/libresolv.so.2(ns_name_unpack+0xef) [0xb75978ff]
+16 [State 0] Message from guest (0x86ad840): /lib/i686/cmov/libresolv.so.2(ns_name_uncompress+0x3a) [0xb75983ba]
+16 [State 0] Message from guest (0x86ad884): /lib/i686/cmov/libresolv.so.2(dn_expand+0x2e) [0xb759124e]
+16 [State 0] Message from guest (0x86ad8bf): /lib/i686/cmov/libresolv.so.2(__res_queriesmatch+0xc6) [0xb7595376]
+16 [State 0] Message from guest (0x86ad903): /lib/i686/cmov/libresolv.so.2(+0x8dc7) [0xb7595dc7]
+16 [State 0] Message from guest (0x86ad937): /lib/i686/cmov/libresolv.so.2(__libc_res_nquery+0x153) [0xb75938c3]
+16 [State 0] Message from guest (0x86ad97b): /lib/i686/cmov/libresolv.so.2(+0x6e8b) [0xb7593e8b]
+16 [State 0] Message from guest (0x86ad9af): /lib/i686/cmov/libresolv.so.2(__libc_res_nsearch+0x34f) [0xb75942cf]
+16 [State 0] Message from guest (0x86ad9f4): /lib/i686/cmov/libnss_dns.so.2(_nss_dns_gethostbyname3_r+0x126) [0xb75a3ba6]
+16 [State 0] Message from guest (0x86ada41): /lib/i686/cmov/libnss_dns.so.2(_nss_dns_gethostbyname_r+0x6b) [0xb75a3e4b]
+16 [State 0] Message from guest (0x86ada8c): /lib/i686/cmov/libc.so.6(gethostbyname_r+0x1ae) [0xb76ba94e]
+16 [State 0] Message from guest (0x86adac9): /lib/i686/cmov/libc.so.6(gethostbyname+0xe6) [0xb76ba1a6]
+16 [State 0] Message from guest (0x86adb03): ../htget-0.93/htget(TCPConnect+0x11) [0x804ac6e]
+16 [State 0] Message from guest (0x86adb34): ../htget-0.93/htget(HTGet+0x41f) [0x804a5f6]
+16 [State 0] Message from guest (0x86adb61): ../htget-0.93/htget(main+0xc9c) [0x804a020]
+16 [State 0] Message from guest (0x86adb8d): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75edca6]
+16 [State 0] Message from guest (0x86adbcb): ../htget-0.93/htget() [0x80492f1]
+SymbExpression memcpy_src - 0x65
+SymbExpression memcpy_src - Value: 0x65
+SymbExpression memcpy_src - 0x64
+SymbExpression memcpy_src - Value: 0x64
+SymbExpression memcpy_src - 0x75
+SymbExpression memcpy_src - Value: 0x75
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbe965c and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0xbfbe9d4d and size 2 is symbolic:  true
+16 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+16 [State 0] Testing whether data at 0xbfbe83f4 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0x86ad7dc): ./tlib.so(memcpy+0x50) [0xb7722e2d]
+16 [State 0] Message from guest (0x86ad800): /lib/i686/cmov/libresolv.so.2(ns_name_unpack+0xef) [0xb75978ff]
+16 [State 0] Message from guest (0x86ad840): /lib/i686/cmov/libresolv.so.2(ns_name_uncompress+0x3a) [0xb75983ba]
+16 [State 0] Message from guest (0x86ad884): /lib/i686/cmov/libresolv.so.2(dn_expand+0x2e) [0xb759124e]
+16 [State 0] Message from guest (0x86ad8bf): /lib/i686/cmov/libresolv.so.2(__res_queriesmatch+0xc6) [0xb7595376]
+16 [State 0] Message from guest (0x86ad903): /lib/i686/cmov/libresolv.so.2(+0x8dc7) [0xb7595dc7]
+16 [State 0] Message from guest (0x86ad937): /lib/i686/cmov/libresolv.so.2(__libc_res_nquery+0x153) [0xb75938c3]
+16 [State 0] Message from guest (0x86ad97b): /lib/i686/cmov/libresolv.so.2(+0x6e8b) [0xb7593e8b]
+16 [State 0] Message from guest (0x86ad9af): /lib/i686/cmov/libresolv.so.2(__libc_res_nsearch+0x34f) [0xb75942cf]
+16 [State 0] Message from guest (0x86ad9f4): /lib/i686/cmov/libnss_dns.so.2(_nss_dns_gethostbyname3_r+0x126) [0xb75a3ba6]
+16 [State 0] Message from guest (0x86ada41): /lib/i686/cmov/libnss_dns.so.2(_nss_dns_gethostbyname_r+0x6b) [0xb75a3e4b]
+16 [State 0] Message from guest (0x86ada8c): /lib/i686/cmov/libc.so.6(gethostbyname_r+0x1ae) [0xb76ba94e]
+16 [State 0] Message from guest (0x86adac9): /lib/i686/cmov/libc.so.6(gethostbyname+0xe6) [0xb76ba1a6]
+16 [State 0] Message from guest (0x86adb03): ../htget-0.93/htget(TCPConnect+0x11) [0x804ac6e]
+16 [State 0] Message from guest (0x86adb34): ../htget-0.93/htget(HTGet+0x41f) [0x804a5f6]
+16 [State 0] Message from guest (0x86adb61): ../htget-0.93/htget(main+0xc9c) [0x804a020]
+16 [State 0] Message from guest (0x86adb8d): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75edca6]
+16 [State 0] Message from guest (0x86adbcb): ../htget-0.93/htget() [0x80492f1]
+SymbExpression memcpy_src - 0x74
+SymbExpression memcpy_src - Value: 0x74
+SymbExpression memcpy_src - 0x77
+SymbExpression memcpy_src - Value: 0x77
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbe965c and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0xbfbea78d and size 3 is symbolic:  false
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbe922c and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0xbfbea791 and size 2 is symbolic:  false
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbe922c and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0xbfbea794 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbe922c and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0xbfbea799 and size 3 is symbolic:  false
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbe922c and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0xbfbea79d and size 2 is symbolic:  false
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbe922c and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb772358e): Testing strcpy (src)
+16 [State 0] Testing whether data at 0xbfbe93ca and size 18 is symbolic:  false
+16 [State 0] Message from guest (0xb77235ae): Testing strcpy (\0)
+16 [State 0] Testing whether data at 0xbfbe93dc and size 1 is symbolic:  false
+16 [State 0] Message from guest (0xb772358e): Testing strcpy (src)
+16 [State 0] Testing whether data at 0xbfbe9802 and size 18 is symbolic:  false
+16 [State 0] Message from guest (0xb77235ae): Testing strcpy (\0)
+16 [State 0] Testing whether data at 0xbfbe9814 and size 1 is symbolic:  false
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0xbfbea78d and size 3 is symbolic:  false
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbea114 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0xbfbea791 and size 2 is symbolic:  false
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbea114 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0xbfbea794 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbea114 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0xbfbea799 and size 3 is symbolic:  false
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbea114 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0xbfbea79d and size 2 is symbolic:  false
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbea114 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0xbfbea78d and size 3 is symbolic:  false
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbea114 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0xbfbea791 and size 2 is symbolic:  false
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbea114 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0xbfbea794 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbea114 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0xbfbea799 and size 3 is symbolic:  false
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbea114 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0xbfbea79d and size 2 is symbolic:  false
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbea114 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0x86ac4d0 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbeb098 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb7723458): Testing vfprintf (format)
+16 [State 0] Testing whether data at 0x804c37c and size 21 is symbolic:  false
+16 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+16 [State 0] Testing whether data at 0xbfbeb0a0 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb7723544): Testing snprintf (format)
+16 [State 0] Testing whether data at 0x804c3f4 and size 70 is symbolic:  false
+16 [State 0] Message from guest (0xb772356d): Testing snprintf (\0)
+16 [State 0] Testing whether data at 0x804c43a and size 1 is symbolic:  false
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x230 value=(Concat w64 (w8 0x74)
+            (Concat w56 (w8 0x63)
+                        (Concat w48 (Read w8 0xe v0_crax_0)
+                                    (Concat w40 (Read w8 0xd v0_crax_0)
+                                                (Concat w32 (w8 0x73)
+                                                            (Concat w24 (Read w8 0xb v0_crax_0)
+                                                                        (Concat w16 (Read w8 0xa v0_crax_0) (w8 0x77))))))))) expression (Concat w64 (w8 0x74)
+            (Concat w56 (w8 0x63)
+                        (Concat w48 (Read w8 0xe v0_crax_0)
+                                    (Concat w40 (Read w8 0xd v0_crax_0)
+                                                (Concat w32 (w8 0x73)
+                                                            (Concat w24 (Read w8 0xb v0_crax_0)
+                                                                        (Con
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x228 value=(Concat w64 (w8 0x77)
+            (Concat w56 (Read w8 0x17 v0_crax_0)
+                        (Concat w48 (Read w8 0x16 v0_crax_0)
+                                    (Concat w40 (w8 0x75)
+                                                (Concat w32 (w8 0x64)
+                                                            (Concat w24 (Read w8 0x13 v0_crax_0)
+                                                                        (Concat w16 (Read w8 0x12 v0_crax_0) (w8 0x75))))))))) expression (Concat w64 (w8 0x77)
+            (Concat w56 (Read w8 0x17 v0_crax_0)
+                        (Concat w48 (Read w8 0x16 v0_crax_0)
+                                    (Concat w40 (w8 0x75)
+                                                (Concat w32 (w8 0x64)
+                                                            (Concat w24 (Read w8 0x13 v0_crax_0)
+                                                                     
+16 [State 0] Message from guest (0xb77234af): Testing memcpy (src)
+16 [State 0] Testing whether data at 0x804c5bf and size 1 is symbolic:  false
+16 [State 0] Message from guest (0xb77234cf): Testing memcpy (n)
+16 [State 0] Testing whether data at 0xbfbeada8 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb772358e): Testing strcpy (src)
+16 [State 0] Testing whether data at 0xbfbeafb4 and size 32 is symbolic:  false
+16 [State 0] Message from guest (0xb77235ae): Testing strcpy (\0)
+16 [State 0] Testing whether data at 0xbfbeafd4 and size 1 is symbolic:  false
+16 [State 0] Message from guest (0xb772358e): Testing strcpy (src)
+16 [State 0] Testing whether data at 0xbfbeafbd and size 3 is symbolic:  false
+16 [State 0] Message from guest (0xb77235ae): Testing strcpy (\0)
+16 [State 0] Testing whether data at 0xbfbeafc0 and size 1 is symbolic:  false
+16 [State 0] Message from guest (0xb772358e): Testing strcpy (src)
+16 [State 0] Testing whether data at 0xbfbed5ec and size 74 is symbolic:  false
+16 [State 0] Message from guest (0xb77235ae): Testing strcpy (\0)
+16 [State 0] Testing whether data at 0xbfbed636 and size 1 is symbolic:  false
+16 [State 0] Message from guest (0xb7723646): Testing malloc (size)
+16 [State 0] Testing whether data at 0xbfbeb094 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb7723458): Testing vfprintf (format)
+16 [State 0] Testing whether data at 0x804c4b3 and size 25 is symbolic:  false
+16 [State 0] Message from guest (0xb77234f2): Testing memset (n)
+16 [State 0] Testing whether data at 0xbfbeb0d8 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb7723458): Testing vfprintf (format)
+16 [State 0] Testing whether data at 0x804c1e0 and size 47 is symbolic:  false
+16 [State 0] Killing state 0
+16 [State 0] State was terminated by opcode
+            message: "Program terminated"
+            status: 0x0
+All states were terminated

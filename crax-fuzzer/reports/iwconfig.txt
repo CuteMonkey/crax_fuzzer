@@ -1,0 +1,83 @@
+Creating plugin CorePlugin
+Creating plugin BaseInstructions
+Creating plugin HostFiles
+0 [State 0] Created initial state
+Initing initial device state.
+WARNING!!! All writes to disk will be lost after shutdown.
+18 [State 0] Inserting symbolic data at 0xbfd94bd5 of size 0x4 with name 'crax'
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x230 value=(Concat w64 (w8 0x0)
+            (Concat w56 (Read w8 0x3 v0_crax_0)
+                        (Concat w48 (Read w8 0x2 v0_crax_0)
+                                    (Concat w40 (Read w8 0x1 v0_crax_0)
+                                                (Concat w32 (Read w8 0x0 v0_crax_0) (w24 0x6769))))))) expression (Concat w64 (w8 0x0)
+            (Concat w56 (Read w8 0x3 v0_crax_0)
+                        (Concat w48 (Read w8 0x2 v0_crax_0)
+                                    (Concat w40 (Read w8 0x1 v0_crax_0)
+                                                (Concat w32 (Read w8 0x0 v0_crax_0) (w24 0x6769)))))) to value 0x30686365006769 (:0)
+18 [State 0] Message from guest (0xb774c5d3): Testing strncpy (src)
+18 [State 0] Testing whether data at 0xbf9b2bab and size 4 is symbolic:  true
+18 [State 0] Message from guest (0xb774c646): Testing malloc (size)
+18 [State 0] Testing whether data at 0xbf9afc60 and size 4 is symbolic:  false
+18 [State 0] Message from guest (0xb774c646): Testing malloc (size)
+18 [State 0] Testing whether data at 0xbf9afb24 and size 4 is symbolic:  false
+18 [State 0] Message from guest (0xb774c646): Testing malloc (size)
+18 [State 0] Testing whether data at 0xbf9afe04 and size 4 is symbolic:  false
+18 [State 0] Message from guest (0xb774c646): Testing malloc (size)
+18 [State 0] Testing whether data at 0xbf9b0164 and size 4 is symbolic:  false
+18 [State 0] Message from guest (0x88a4410): ./tlib.so(strncpy+0x5e) [0xb774c257]
+18 [State 0] Message from guest (0x88a4435): ../wireless_tools.26/iwconfig() [0x804ad94]
+18 [State 0] Message from guest (0x88a4461): ../wireless_tools.26/iwconfig() [0x804bf1e]
+18 [State 0] Message from guest (0x88a448d): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75efca6]
+18 [State 0] Message from guest (0x88a44cb): ../wireless_tools.26/iwconfig() [0x8048c91]
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x0 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x65
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x1 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x63
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x2 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x68
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x3 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x30
+18 [State 0] Message from guest (0xb774c5f5): Testing strncpy (n)
+18 [State 0] Testing whether data at 0xbf9b12c8 and size 4 is symbolic:  false
+18 [State 0] Message from guest (0xb774c58e): Testing strcpy (src)
+18 [State 0] Testing whether data at 0xbf9b2bab and size 4 is symbolic:  true
+18 [State 0] Message from guest (0xb774c646): Testing malloc (size)
+18 [State 0] Testing whether data at 0xbf9b0164 and size 4 is symbolic:  false
+18 [State 0] Message from guest (0x88a4410): ./tlib.so(strcpy+0x5e) [0xb774c16a]
+18 [State 0] Message from guest (0x88a4434): ../wireless_tools.26/iwconfig() [0x804bb0f]
+18 [State 0] Message from guest (0x88a4460): ../wireless_tools.26/iwconfig() [0x804bf1e]
+18 [State 0] Message from guest (0x88a448c): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb75efca6]
+18 [State 0] Message from guest (0x88a44ca): ../wireless_tools.26/iwconfig() [0x8048c91]
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x0 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x65
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x1 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x63
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x2 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x68
+SymbExpression strcpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x3 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strcpy_src - Value: 0x30
+18 [State 0] Message from guest (0xb774c5ae): Testing strcpy (\0)
+18 [State 0] Testing whether data at 0xbf9b2baf and size 1 is symbolic:  false
+18 [State 0] Message from guest (0xb774c458): Testing vfprintf (format)
+18 [State 0] Testing whether data at 0x804e54d and size 12 is symbolic:  false
+18 [State 0] Killing state 0
+18 [State 0] State was terminated by opcode
+            message: "Program terminated"
+            status: 0x0
+All states were terminated

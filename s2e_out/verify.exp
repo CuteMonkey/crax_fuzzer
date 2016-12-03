@@ -1,0 +1,27 @@
+#!/usr/bin/expect
+#Run qemu in non-s2e mode and login in to setup the verification environment or
+#execute verification commands.
+#Usage: ./verify.exp
+
+set timeout 120
+
+spawn /home/chengte/SCraxF/build/qemu-release/i386-softmmu/qemu-system-i386 /home/chengte/disk_images/s2e_verify.raw -m 1024 \
+-nographic
+
+interact \x0D {send "\x0D"; return}
+
+while {1} {
+    expect {
+        "debian login:" { send "chengte\n" }
+        timeout { set timeout 120 }
+    }
+    expect {
+        "Password:" {
+            send "s2e\n"
+            break 
+        }
+        timeout { set timeout 120 }
+    }
+}
+
+interact

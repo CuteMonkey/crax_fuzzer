@@ -1,0 +1,121 @@
+/* $Id: xiowrite.c,v 1.18 2004/06/06 17:33:23 gerhard Exp $ */
+/* Copyright Gerhard Rieger 2001-2004 */
+/* Published under the GNU General Public License V.2, see file COPYING */
+
+/* this is the source of the extended write function */
+
+
+#include "xiosysincludes.h"
+#include "xioopen.h"
+
+#include "xio-readline.h"
+#include "xio-openssl.h"
+
+
+ssize_t xiowrite(xiofile_t *file, const void *buff, size_t bytes) {
+   ssize_t writt;
+   struct single *pipe;
+
+   if (file->tag == XIO_TAG_INVALID) {
+      Error("xiowrite(): invalid file descriptor");
+      errno = EINVAL;
+      return -1;
+   }
+
+   if (file->tag == XIO_TAG_DUAL) {
+      pipe = &file->dual.stream[1]->stream;
+      if (pipe->tag == XIO_TAG_INVALID) {
+	 Error("xiowrite(): invalid file descriptor");
+	 errno = EINVAL;
+	 return -1;
+      }
+   } else {
+      pipe = &file->stream;
+   }
+
+#if WITH_READLINE
+   xioscan_readline(pipe, buff, bytes);
+#endif /* WITH_READLINE */
+
+   if (pipe->dtype == DATA_STREAM || pipe->dtype == DATA_READLINE ||
+       pipe->dtype == DATA_PTY) {
+      do {
+	 writt = Write(pipe->fd, buff, bytes);
+      } while (writt < 0 && errno == EINTR);
+      if (writt < 0) {
+	 Error4("write(%d, %p, "F_Zu"): %s",
+		pipe->fd, buff, bytes, strerror(errno));
+	 return -1;
+      }
+      if ((size_t)writt < bytes) {
+	 Warn2("write() only wrote "F_Zu" of "F_Zu" bytes",
+	       writt, bytes);
+      }
+#if WITH_SOCKET
+   } else if (pipe->dtype == DATA_RECV) {
+      /*union {
+	 char space[sizeof(struct sockaddr_un)];
+	 struct sockaddr sa;
+	 } from;*/
+      /*socklen_t fromlen;*/
+
+      do {
+	 writt = Sendto(pipe->fd, buff, bytes, 0,
+			&pipe->peersa.soa, pipe->salen);
+      } while (writt < 0 && errno == EINTR);
+      if (writt < 0) {
+	 char infobuff[256];
+	 Error6("sendto(%d, %p, "F_Zu", 0, %s, "F_socklen"): %s",
+		pipe->fd, buff, bytes, 
+		 sockaddr_info(&pipe->peersa.soa,
+			       infobuff, sizeof(infobuff)),
+		 pipe->salen, strerror(errno));
+	 return -1;
+      }
+      if ((size_t)writt < bytes) {
+	 char infobuff[256];
+	 Warn7("sendto(%d, %p, "F_Zu", 0, %s, "F_socklen") only wrote "F_Zu" of "F_Zu" bytes",
+	       pipe->fd, buff, bytes, 
+	       sockaddr_info(&pipe->peersa.soa,
+			     infobuff, sizeof(infobuff)),
+	       pipe->salen, writt, bytes);
+      } else {
+      }
+#endif /* WITH_SOCKET */
+   } else if (pipe->dtype == DATA_PIPE) {
+      do {
+	 writt = Write(pipe->para.bipipe.fdout, buff, bytes);
+      } while (writt < 0 && errno == EINTR);
+      if (writt < 0) {
+	 Error4("write(%d, %p, "F_Zu"): %s",
+		pipe->para.bipipe.fdout, buff, bytes, strerror(errno));
+	 return -1;
+      }
+      if ((size_t)writt < bytes) {
+	 Warn2("write() only wrote "F_Zu" of "F_Zu" bytes",
+	       writt, bytes);
+      }
+   } else if (pipe->dtype == DATA_2PIPE) {
+      do {
+	 writt = Write(pipe->para.exec.fdout, buff, bytes);
+      } while (writt < 0 && errno == EINTR);
+      if (writt < 0) {
+	 Error4("write(%d, %p, "F_Zu"): %s",
+		pipe->para.exec.fdout, buff, bytes, strerror(errno));
+	 return -1;
+      }
+      if ((size_t)writt < bytes) {
+	 Warn2("write() only processed "F_Zu" of "F_Zu" bytes",
+	       writt, bytes);
+      }
+#if WITH_OPENSSL
+   } else if (pipe->dtype == DATA_OPENSSL) {
+      /* this function prints its error messages */
+      return xiowrite_openssl(pipe, buff, bytes);
+#endif /* WITH_OPENSSL */
+   } else {
+      Error1("xiowrite(): bad data type specification %d", pipe->dtype);
+      return -1;
+   }
+   return writt;
+}

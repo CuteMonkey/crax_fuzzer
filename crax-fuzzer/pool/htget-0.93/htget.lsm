@@ -1,0 +1,19 @@
+Begin3
+Title:		HTGET - does http transfers, with resume
+Version:	0.93
+Entered-date:	11SEP98
+Description:	Gets files via HTTP protocol. Intended to be the most
+		reliable way of doing this. Features: resume, redial,
+		listfile support, can be backgrounded easily. Gives full
+		reports of time remaining, etc., if needed.
+Keywords:	HTTP, file, transfer, resume, redial, network
+Author: 	jwhitham@globalnet.co.uk (J Whitham)
+Maintained-by:	jwhitham@globalnet.co.uk
+Primary-site:	http://www.users.globalnet.co.uk/~jwhitham/htget/
+Alternate-site:	sunsite.unc.edu /pub/Linux/apps/www/mirroring
+		18kB	htget-0.93.tar.gz
+		1kB	htget.lsm
+Platforms:	Linux
+Copying-policy:	GPL
+End
+

@@ -1,0 +1,203 @@
+Creating plugin CorePlugin
+Creating plugin BaseInstructions
+Creating plugin HostFiles
+0 [State 0] Created initial state
+Initing initial device state.
+WARNING!!! All writes to disk will be lost after shutdown.
+15 [State 0] Inserting symbolic data at 0xb7757000 of size 0x9c with name 'crax'
+15 [State 0] Message from guest (0xb77ba646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbff82200 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77ba646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbff82100 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77ba646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbff8213c and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77ba646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbff82100 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77ba646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbff82100 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77ba646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbff82100 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77ba646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbff82230 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77ba5d3): Testing strncpy (src)
+15 [State 0] Testing whether data at 0x9aac058 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77ba5f5): Testing strncpy (n)
+15 [State 0] Testing whether data at 0xbff82258 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77ba646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbff81ff0 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77ba5d3): Testing strncpy (src)
+15 [State 0] Testing whether data at 0x9aac058 and size 7 is symbolic:  false
+15 [State 0] Message from guest (0xb77ba5f5): Testing strncpy (n)
+15 [State 0] Testing whether data at 0xbff82018 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77ba544): Testing snprintf (format)
+15 [State 0] Testing whether data at 0x804a8ec and size 17 is symbolic:  false
+15 [State 0] Message from guest (0xb77ba56d): Testing snprintf (\0)
+15 [State 0] Testing whether data at 0x804a8fd and size 1 is symbolic:  false
+15 [State 0] Message from guest (0xb77ba544): Testing snprintf (format)
+15 [State 0] Testing whether data at 0x804a8fe and size 7 is symbolic:  false
+15 [State 0] Message from guest (0xb77ba56d): Testing snprintf (\0)
+15 [State 0] Testing whether data at 0x804a905 and size 1 is symbolic:  false
+15 [State 0] Message from guest (0xb77ba646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbff82214 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77ba646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbff82214 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77ba458): Testing vfprintf (format)
+15 [State 0] Testing whether data at 0x804a90d and size 16 is symbolic:  false
+15 [State 0] Message from guest (0xb77ba458): Testing vfprintf (format)
+15 [State 0] Testing whether data at 0x804a965 and size 4 is symbolic:  false
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x230 value=(ReadLSB w64 0x1c v0_crax_0)) expression (ReadLSB w64 0x1c v0_crax_0) to value 0x75686b73203a6f54 (:0)
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x228 value=(ReadLSB w64 0x24 v0_crax_0)) expression (ReadLSB w64 0x24 v0_crax_0) to value 0x6e2e736340676e61 (:0)
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x230 value=(ReadLSB w64 0x2c v0_crax_0)) expression (ReadLSB w64 0x2c v0_crax_0) to value 0x2e7564652e757463 (:0)
+KLEE: WARNING: silently concretizing (reason: write to always concrete memory name:CpuSystemState offset=0x228 value=(Concat w64 (w8 0x0)
+            (Concat w56 (w8 0x0)
+                        (Concat w48 (w8 0x0)
+                                    (Concat w40 (w8 0x0)
+                                                (Concat w32 (w8 0x0)
+                                                            (Concat w24 (w8 0x0)
+                                                                        (ReadLSB w16 0x34 v0_crax_0)))))))) expression (Concat w64 (w8 0x0)
+            (Concat w56 (w8 0x0)
+                        (Concat w48 (w8 0x0)
+                                    (Concat w40 (w8 0x0)
+                                                (Concat w32 (w8 0x0)
+                                                            (Concat w24 (w8 0x0)
+                                                                        (ReadLSB w16 0x34 v0_crax_0))))))) to value 0x7774 (:0)
+15 [State 0] Message from guest (0xb77ba5d3): Testing strncpy (src)
+15 [State 0] Testing whether data at 0xbff822dc and size 22 is symbolic:  true
+15 [State 0] Message from guest (0xb77ba646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbff80bc4 and size 4 is symbolic:  false
+15 [State 0] Message from guest (0xb77ba646): Testing malloc (size)
+15 [State 0] Testing whether data at 0xbff80f50 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0x9aac5b4): ./tlib.so(strncpy+0x5e) [0xb77ba257]
+16 [State 0] Message from guest (0x9aac5d9): ../pool/xmail-1.21/bin/sendmail() [0x8048f0f]
+16 [State 0] Message from guest (0x9aac607): ../pool/xmail-1.21/bin/sendmail() [0x8049006]
+16 [State 0] Message from guest (0x9aac635): ../pool/xmail-1.21/bin/sendmail() [0x804a657]
+16 [State 0] Message from guest (0x9aac663): /lib/i686/cmov/libc.so.6(__libc_start_main+0xe6) [0xb752dca6]
+16 [State 0] Message from guest (0x9aac6a1): ../pool/xmail-1.21/bin/sendmail() [0x8048d31]
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x20 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x73
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x21 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x6b
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x22 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x68
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x23 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x75
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x24 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x61
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x25 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x6e
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x26 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x67
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x27 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x40
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x28 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x63
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x29 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x73
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x2a v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x2e
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x2b v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x6e
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x2c v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x63
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x2d v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x74
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x2e v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x75
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x2f v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x2e
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x30 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x65
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x31 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x64
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x32 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x75
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x33 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x2e
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x34 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x74
+SymbExpression strncpy_src - (Concat w32 (Extract w8 24 N0:(SExt w32 N1:(Read w8 0x35 v0_crax_0)))
+            (Concat w24 (Extract w8 16 N0)
+                        (Concat w16 (Extract w8 8 N0) N1)))
+SymbExpression strncpy_src - Value: 0x77
+16 [State 0] Message from guest (0xb77ba5f5): Testing strncpy (n)
+16 [State 0] Testing whether data at 0xbff820c8 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77ba458): Testing vfprintf (format)
+16 [State 0] Testing whether data at 0x804a834 and size 14 is symbolic:  false
+16 [State 0] Message from guest (0xb77ba458): Testing vfprintf (format)
+16 [State 0] Testing whether data at 0x804a965 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77ba458): Testing vfprintf (format)
+16 [State 0] Testing whether data at 0x804a965 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77ba646): Testing malloc (size)
+16 [State 0] Testing whether data at 0xbff821c4 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77ba646): Testing malloc (size)
+16 [State 0] Testing whether data at 0xbff821e8 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77ba646): Testing malloc (size)
+16 [State 0] Testing whether data at 0xbff821e8 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77ba544): Testing snprintf (format)
+16 [State 0] Testing whether data at 0x804a949 and size 10 is symbolic:  false
+16 [State 0] Message from guest (0xb77ba56d): Testing snprintf (\0)
+16 [State 0] Testing whether data at 0x804a953 and size 1 is symbolic:  false
+16 [State 0] Message from guest (0xb77ba458): Testing vfprintf (format)
+16 [State 0] Testing whether data at 0x804a95f and size 10 is symbolic:  false
+16 [State 0] Message from guest (0xb77ba458): Testing vfprintf (format)
+16 [State 0] Testing whether data at 0x804a965 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77ba458): Testing vfprintf (format)
+16 [State 0] Testing whether data at 0x804a965 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77ba458): Testing vfprintf (format)
+16 [State 0] Testing whether data at 0x804a965 and size 4 is symbolic:  false
+16 [State 0] Message from guest (0xb77ba431): Testing fread (nmemb)
+16 [State 0] Testing whether data at 0xbff82258 and size 4 is symbolic:  false
+KLEE: WARNING: silently concretizing (reason: memory access from concrete code) expression (Read w8 0x20 v0_crax_0) to value 0x73 (:0)
+16 [State 0] Message from guest (0xb77ba544): Testing snprintf (format)
+16 [State 0] Testing whether data at 0x804a8ec and size 17 is symbolic:  false
+16 [State 0] Message from guest (0xb77ba56d): Testing snprintf (\0)
+16 [State 0] Testing whether data at 0x804a8fd and size 1 is symbolic:  false
+16 [State 0] Message from guest (0xb77ba458): Testing vfprintf (format)
+16 [State 0] Testing whether data at 0x804a99a and size 21 is symbolic:  false
+16 [State 0] Killing state 0
+16 [State 0] State was terminated by opcode
+            message: "program terminated"
+            status: 0x0
+All states were terminated

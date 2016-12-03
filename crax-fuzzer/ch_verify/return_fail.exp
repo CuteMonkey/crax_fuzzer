@@ -1,0 +1,18 @@
+#!/usr/bin/expect
+#Return the fail file to host via scp.
+
+set timeout 40
+
+set host_ip ""
+set host_user ""
+set user_pass ""
+
+set result_dir "SCraxF/s2e_out/s2e-last"
+set verify_dir "/home/chengte/ch_verify"
+
+puts "Verify fail"
+
+spawn scp -p $verify_dir/fail.txt $host_user@$host_ip:$result_dir
+expect "password:" { send "$user_pass\n" }
+
+interact

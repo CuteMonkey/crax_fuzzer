@@ -1,0 +1,122 @@
+# htget example resource file.
+#
+# This file defines the options which you use for connecting to any
+# server on the net. At the moment it is optimised for my modem connection.
+#
+# Some options can be overridden in htget's parameters.
+
+
+
+# Timeout in seconds. This is the amount of time that will be allowed to
+# pass with no data coming down the line before htget gives up 
+# that particular download attempt. A timeout of zero is taken 
+# to mean no timeout.
+#
+# Default value: 30 seconds
+# Override using: --timeout=<new-timeout>
+#
+Timeout=30
+
+
+# Redial. This is a feature of htget that will continuously attempt to
+# get a file until you tell it to stop. This is really useful, especially
+# with servers that support file resuming.
+#
+# It is turned on by giving a redial delay. After a download times out,
+# or stops for whatever reason, htget waits for the amount of time
+# given here, then tries again.
+#
+# Default value: 10 seconds
+# Override using: --redial=<new-redial-delay>
+#
+# Giving a zero redial delay turns off the redial feature.
+#
+Redial=10
+
+
+# Resume. All good http servers, and some bad ones, allow you to start
+# a download from the middle of a file. htget uses this to resume
+# downloads that time out.
+#
+# This is a boolean value that may be either 1 (on) or 0 (off).
+# Default value: 1 (on)
+# Override using: --resume or --noresume
+#
+Resume=1
+
+
+# Minimum Rate.
+# You may have noticed while downloading from some servers
+# that the download speed seems to decrease as the download
+# progresses. The MinRate feature addresses this problem by
+# stopping the download once the download speed has dropped
+# below a certain level.
+#
+# Using the default setting, 1000 bytes/sec, if the download
+# rate drops below 1000 bytes/sec for longer than the Timeout,
+# the download is assumed to have stopped.
+#
+# A MinRate of 0 will turn off the feature
+#
+# Default value: 1000
+# Override using: --minrate=<rate>
+MinRate=1000
+
+
+# Verbose. This prints a lot of additional information about the
+# client, server, and the exchange of data going on.
+# Not all that useful, except for debugging this program and
+# finding out which httpd the server is running.
+#
+# This is a boolean value that may be either 1 (on) or 0 (off).
+# Default value: 0 (off)
+# Override using: --verbose or --noverbose
+#
+Verbose=0
+
+
+# Download Status display features.
+# These should be fairly self-explanatory. You can't override these 
+# at the moment using parameters, but you will probably just want
+# to leave them on.
+#
+# They are all boolean values, ie. 1 is on, 0 is off
+#
+ShowBytesRemaining=1
+ShowTimeRemaining=1
+ShowPercentage=1
+ShowBytesPerSecond=1
+
+
+# DownloadsDir
+# The directory where files are placed. By default, this is the
+# directory that htget is run from.
+#
+# However, you can specify other directories.
+# I use: DownloadsDir=/home/jwhitham/dnloads
+#
+# Default value: ./
+# Override using: --downloadsdir=<directory>
+# To download to the current directory, use: --currentdir
+#
+DownloadsDir=./
+
+# UserAgent
+# Allows you to rename the client name htget uses.
+# Don't worry about this if you don't know what it means!
+#
+# Default value: linux htget 0.9
+# This feature cannot be overridden at present.
+#
+UserAgent=linux htget 0.9
+
+
+# ShowBanner. This boolean option allows you to turn off the
+# htget banner that appears at the start.
+#
+# Default value: 1 (on)
+# This feature cannot be overridden at present.
+#
+ShowBanner=1
+
+

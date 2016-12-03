@@ -1,0 +1,83 @@
+#!/usr/bin/expect
+#The script to entire automatic fuzzing system.
+#Arguments: <s2e-config-file> <snapshot-name> <script-name> <testcase-id>
+
+set timeout 240
+
+if {$argc != 4} {
+    puts stdout "Arguments: <s2e-config-file> <snapshot-name> <script-name> <testcase-id>\r"
+    exit 1
+}
+
+set s2e_config [lindex $argv 0]
+set snapshot_name [lindex $argv 1]
+set script_name [lindex $argv 2]
+set testcase_id [lindex $argv 3]
+
+spawn ../build/qemu-release/i386-s2e-softmmu/qemu-system-i386 /home/chengte/disk_images/s2e_guest.raw.s2e -s2e-config-file \
+    $s2e_config -s2e-verbose -net none -nographic -loadvm $snapshot_name
+set guest_sid $spawn_id
+
+catch {
+    send -i $guest_sid "cd ch_guest\n"
+    expect -i $guest_sid "ch_guest$" { send -i $guest_sid "./$script_name\n" }
+}
+if { [info exists errorInfo] } {
+    puts stdout $errorInfo
+    close -i $guest_sid
+    exit 1
+}
+
+set remote_ip "192.168.228.130"
+set remote_user "chengte"
+set user_pass "c4f6t5r23"
+set complete_command "./ch_verify/$script_name $testcase_id"
+
+set try_counter 0
+set ssh_sid 0
+while {1} {
+    if { [file exists "s2e-last/complete.txt"] } {
+        break
+    }
+    if { [file exists "s2e-last/input_g.txt"] } {
+        set try_counter [incr try_counter]
+
+        puts stdout "Start to verify $try_counter"
+
+        catch {
+            spawn ssh $remote_user@$remote_ip $complete_command
+            set ssh_sid $spawn_id
+            expect "password" { send "$user_pass\n" }
+            wait -i $ssh_sid
+            close -i $ssh_sid
+        }
+        if { [info exists errorInfo] } {
+            puts stdout  $errorInfo
+        }
+
+        if { ![file exists "s2e-last/input_g.txt"] } {
+            while {1} {
+                if { [file exists "s2e-last/confirm.txt"] } {
+                    exec "./clean_signal.sh"
+                    break
+                }
+                if { [file exists "s2e-last/input_g.txt"] } {
+                    puts stdout "Fatal error!"
+                    exit 1
+                }
+            }
+        }
+    }
+    #if { [file exists "s2e-last/input_gf.txt"] } {
+    #    exec "./send_gf.sh"
+    #}
+    #if { [file exists "s2e-last/start_ql.txt"] } {
+    #    exec "./send_ql.sh"
+    #}
+}
+
+puts stdout "All verification complete"
+
+close -i $guest_sid
+
+exit 0

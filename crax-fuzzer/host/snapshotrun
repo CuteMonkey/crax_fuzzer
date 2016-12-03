@@ -1,0 +1,2 @@
+#!/bin/sh
+build/qemu-release/i386-softmmu/qemu-system-i386 image/s2e_disk.raw.s2e -vnc :1 -net none #-loadvm $1

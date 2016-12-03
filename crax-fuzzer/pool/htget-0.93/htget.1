@@ -1,0 +1,100 @@
+.TH HTGET 1 
+.SH NAME
+htget \- Get files via HTTP protocol
+.SH SYNOPSIS
+.B htget
+.I "[options] url [urls..]"
+.SH "DESCRIPTION"
+.B htget
+is a file grabber that will get files from HTTP servers. 
+The aim behind this program is to create a downloader that you can leave
+running in the background - one that's totally reliable and can cope with
+just about any problem, and won't stop downloading unless it's forced to.
+.PP
+htget is not a finished program, so while much of the above is true, it's
+not quite as reliable as it should be.
+.PP
+You can give htget urls to fetch, eg.
+
+        htget http://www.channel4.com/index.html
+
+will get index.html from channel4.com. You don't need to specify http://.
+You can specify multiple urls at the command line. htget will get them in
+the order given, according to the options you give at the command line
+and in the resource file.
+.SH RESOURCE FILE
+Much of the settings are controlled from htget's
+.B resource file,
+which is usually .htgetrc in your home directory.
+A sample htgetrc file can be found in the htget source
+distribution. This htgetrc file contains all of the
+available options, along with comments describing what they do.
+.PP
+htget normally checks first for
+.B htgetrc
+in the current directory, and then for
+.B .htgetrc
+in your home directory, unless you specify another location
+using the --rcfile option.
+.SH COMMAND LINE OPTIONS
+Command line switches allow you to override the options in the resource
+file. You can have as many on as necessary. If you give two options
+that are mutually exclusive, eg.
+.B \-\-noresume
+and
+.B \-\-resume
+the latter will be used.
+.TP
+.B \-\-noresume
+Do not attempt to resume files.
+.TP
+.B \-\-resume
+Always attempt to resume files.
+.TP
+.B \-\-rcfile=f
+Use an alternative resource file f for defaults. 
+.TP
+.B \-\-timeout=n
+Set the download timeout to n seconds. If no data comes in
+for n seconds, htget will cancel this download attempt. If
+you have also turned on the redial option, it will try again
+after the redial delay you specify.
+A zero timeout is interpreted to mean no timeout.
+.TP
+.B \-\-redial=n
+Sets the redial delay to n seconds. This is the time for which
+the server will wait after one download attempt fails before
+trying again. If n is zero, the redial feature is turned off.
+.PP
+Redial is a feature of htget that will continuously attempt to
+get a file until you tell it to stop. This is really useful, especially
+with servers that support file resuming.
+.TP
+.B \-\-downloaddir=d
+Output files to alternate directory d
+.TP
+.B \-\-currentdir
+Output files to current directory
+.TP
+.B \-\-minrate=bytes
+Set the minimum download rate to
+.B bytes
+bytes/sec.
+.B minrate
+is useful for servers that start off transmitting data at
+a good speed, then slow down. When the rate drops below minrate for the
+amount of time specified as the timeout, the connection is assumed to
+have timed out. Can be combined with redial.
+.TP
+.B \-\-verbose
+Verbose output
+.TP
+.B \-\-noverbose
+Only output essential messages
+.SH AUTHOR
+This manual page was put together 
+by Christoph Lameter <clameter@debian.org>,
+for the Debian GNU/Linux system from the documentation for
+.B htget 0.1,
+and was updated for htget 0.9 by J Whitham <jwhitham@globalnet.co.uk>
+

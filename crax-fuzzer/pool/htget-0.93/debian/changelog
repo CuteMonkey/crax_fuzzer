@@ -1,0 +1,44 @@
+htget (0.93-1) unstable; urgency=low
+
+  * New Upstream version
+  * Revised main loop
+  * Timeouts changed
+
+ -- Troy Hanson <troy@debian.org>  Thu, 24 Jun 1999 21:06:52 -0500
+
+htget (0.92-1) unstable; urgency=low
+
+  * New Upstream version
+  * Repaired build scripts slightly
+
+ -- Troy Hanson <troy@debian.org>  Mon, 11 Jan 1999 17:06:56 -0600
+
+htget (0.9.1-2) unstable; urgency=low
+
+  * Fixed config file problem
+
+ -- Troy Hanson <troy@debian.org>  Sun, 20 Sep 1998 14:55:26 -0500
+
+htget (0.9.1-1) unstable; urgency=low
+
+  *  New maintainer
+  *  New upstream version
+
+ -- Troy Hanson <troy@debian.org>  Sun, 19 Jul 1998 09:46:21 -0500
+
+htget (0.9-1) unstable; urgency=low
+
+  *  New maintainer
+  *  New upstream version
+
+ -- Troy Hanson <troy@debian.org>  Sun, 19 Jul 1998 09:46:21 -0500
+
+htget (0.1-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Christoph Lameter <clameter@debian.org>  Sun, 15 Feb 1998 21:39:13 -0800
+
+Local variables:
+mode: debian-changelog
+End:
